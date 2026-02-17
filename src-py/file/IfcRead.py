@@ -6,9 +6,9 @@ e = gh.GH_RuntimeMessageLevel.Error
 w = gh.GH_RuntimeMessageLevel.Warning
 
 # Initialize model
-model = ifcopenshell.open(file_path)
+model = ifcopenshell.open(FP)
 
-schema_version = model.schema
+Sv = model.schema
 
 # Save model
-model_out = model
+Mo = model

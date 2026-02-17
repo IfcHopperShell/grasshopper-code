@@ -2,18 +2,18 @@ import ifcopenshell
 from pathlib import Path
 
 # Set default values
-if folder == None:
-    folder = str(Path.home() / "IfcHopperShell") + "\\"
+if D == None:
+    D = str(Path.home() / "IfcHopperShell") + "\\"
 
-if file_name == None:
-    file_name = "Hopper File"
+if Fn == None:
+    Fn = "Hopper File"
 
-if write == None:
-    write = False
+if W == None:
+    W = False
 
 # Set out path
-out_path = folder + file_name + ".ifc"
+out_path = D + Fn + ".ifc"
 
 # Write file
-if write:
-    model_in.write(out_path)
+if W:
+    Mi.W(FP)

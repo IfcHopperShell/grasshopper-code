@@ -6,22 +6,22 @@ import ghpythonlib.treehelpers as th
 import math
 
 # Initialize model
-model = ifcopenshell.file.from_string(model_in.to_string())
+model = ifcopenshell.file.from_string(Mi.to_string())
 
 # Lists for storing output geometry and property sets
-mesh = []
-colors = []
-step_id = []
+M = []
+C = []
+StepId = []
 pset_id_list = []
 qto_id_list = []
 
 # Configure geometry extraction settings and iterator for the IFC file
 settings = ifcopenshell.geom.settings()
 iterator = None
-if include != None and len(include) > 0:
-    iterator = ifcopenshell.geom.iterator(settings, model, multiprocessing.cpu_count(), include=include)
-elif exclude != None and len(exclude) > 0:
-    iterator = ifcopenshell.geom.iterator(settings, model, multiprocessing.cpu_count(), exclude=exclude)
+if In != None and len(In) > 0:
+    iterator = ifcopenshell.geom.iterator(settings, model, multiprocessing.cpu_count(), include=In)
+elif Ex != None and len(Ex) > 0:
+    iterator = ifcopenshell.geom.iterator(settings, model, multiprocessing.cpu_count(), exclude=Ex)
 else:
     iterator = ifcopenshell.geom.iterator(settings, model, multiprocessing.cpu_count())
 
@@ -43,7 +43,7 @@ if iterator.initialize():
 
         color = sd.Color.FromArgb(alpha, materials[0].diffuse.r()*255, materials[0].diffuse.g()*255, materials[0].diffuse.b()*255)
 
-        colors.append(color)
+        C.append(color)
 
         # Get grouped vertices and faces (as arrays)
         grouped_verts = ifcopenshell.util.shape.get_vertices(shape.geometry)
@@ -91,10 +91,10 @@ if iterator.initialize():
         element_mesh.Transform(rtsmatrix)
 
         # Append geometry and property set info for output
-        mesh.append(element_mesh)
+        M.append(element_mesh)
 
         # Retrieve the IFC element by its ID
-        step_id.append(shape.id)
+        StepId.append(shape.id)
 
         element = model.by_id(shape.id)
 
@@ -115,5 +115,5 @@ if iterator.initialize():
         if not iterator.next():
             break
 
-pset_id = th.list_to_tree(pset_id_list)
-qto_id = th.list_to_tree(qto_id_list)
+PsetId = th.list_to_tree(pset_id_list)
+QtoId = th.list_to_tree(qto_id_list)

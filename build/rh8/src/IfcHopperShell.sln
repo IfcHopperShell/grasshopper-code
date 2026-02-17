@@ -1,7 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{295b15b1-3500-40a2-b08e-8b333981d480}") = "IfcHopperShell.Components", "IfcHopperShell.Components\IfcHopperShell.Components.csproj", "{71c68995-19a1-4ba7-a50e-d9721c727c28}"
+Project("{295b15b1-3500-40a2-b08e-8b333981d480}") = "IfcHopperShell.Components", "IfcHopperShell.Components\IfcHopperShell.Components.csproj", "{9f19b828-5fea-4cda-aa74-6d7b4ab66fc0}"
 EndProject
 
 Global
@@ -10,9 +10,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{71c68995-19a1-4ba7-a50e-d9721c727c28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{71c68995-19a1-4ba7-a50e-d9721c727c28}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{71c68995-19a1-4ba7-a50e-d9721c727c28}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{71c68995-19a1-4ba7-a50e-d9721c727c28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9f19b828-5fea-4cda-aa74-6d7b4ab66fc0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9f19b828-5fea-4cda-aa74-6d7b4ab66fc0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9f19b828-5fea-4cda-aa74-6d7b4ab66fc0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9f19b828-5fea-4cda-aa74-6d7b4ab66fc0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
