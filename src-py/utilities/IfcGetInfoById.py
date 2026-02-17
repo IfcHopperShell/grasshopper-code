@@ -7,7 +7,7 @@ e = gh.GH_RuntimeMessageLevel.Error
 w = gh.GH_RuntimeMessageLevel.Warning
 
 # Initialize model
-model = ifcopenshell.file.from_string(model_in.to_string())
+model = ifcopenshell.file.from_string(Mi.to_string())
 
 # Initialize empty arrays
 ifc_objects = []
@@ -15,7 +15,7 @@ ifc_objects = []
 keys_list = []
 values_list = []
 
-for s_id in step_id:
+for s_id in StepId:
     try:
         object_info = model.by_id(s_id).get_info()
         keys_list.append(list(object_info.keys()))
@@ -23,5 +23,5 @@ for s_id in step_id:
     except:
         ghenv.Component.AddRuntimeMessage(w, f"No object was found with Id {s_id}")
 
-keys = th.list_to_tree(keys_list)
-values = th.list_to_tree(values_list)
+K = th.list_to_tree(keys_list)
+V = th.list_to_tree(values_list)

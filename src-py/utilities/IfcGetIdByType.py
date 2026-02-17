@@ -7,13 +7,13 @@ e = gh.GH_RuntimeMessageLevel.Error
 w = gh.GH_RuntimeMessageLevel.Warning
 
 # Initialize model
-model = ifcopenshell.file.from_string(model_in.to_string())
+model = ifcopenshell.file.from_string(Mi.to_string())
 
 # Initialize empty arrays
 ifc_objects = []
 id_list = []
 
-for i_type in ifc_type:
+for i_type in Ty:
     try:
         ifc_objects.append(model.by_type(i_type))
     except:
@@ -22,11 +22,11 @@ for i_type in ifc_type:
 for i in range(len(ifc_objects)):
 
     if len(ifc_objects[i]) == 0:
-        ghenv.Component.AddRuntimeMessage(w, f"No object of type {ifc_type[i]} was found")
+        ghenv.Component.AddRuntimeMessage(w, f"No object of type {Ty[i]} was found")
 
     id_list.append([])
 
     for j in ifc_objects[i]:
         id_list[i].append(int(j.id()))
 
-step_id = th.list_to_tree(id_list)
+StepId = th.list_to_tree(id_list)
