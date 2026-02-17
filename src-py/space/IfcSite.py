@@ -1,22 +1,22 @@
 import ifcopenshell.api.root
 
 # Set default values
-if name == None:
-    name = ["Hopper Site"]
+if N == None:
+    N = ["Hopper Site"]
 
 # Initialize model
-model = ifcopenshell.file.from_string(model_in.to_string())
+model = ifcopenshell.file.from_string(Mi.to_string())
 
 # Initalize empty array
-site_id = []
+SId = []
 
 # Create sites (one per name)
-for i in range(len(name)):
-    site = ifcopenshell.api.root.create_entity(model, ifc_class="IfcSite", name=name[i])
-    relating_object = model.by_id(relating_object_id)
+for i in range(len(N)):
+    site = ifcopenshell.api.root.create_entity(model, ifc_class="IfcSite", name=N[i])
+    relating_object = model.by_id(ROId)
     ifcopenshell.api.aggregate.assign_object(model, relating_object=relating_object, products=[site])
 
-    site_id.append(int(site.id()))
+    SId.append(int(site.id()))
 
 # Save model
-model_out = model
+Mo = model

@@ -8,23 +8,23 @@ e = gh.GH_RuntimeMessageLevel.Error
 w = gh.GH_RuntimeMessageLevel.Warning
 
 # Set default values
-if projected_crs == None:
-    projected_crs = 4326
+if CRS == None:
+    CRS = 4326
 
-if eastings == None:
-    eastings = 0.0
+if Es == None:
+    Es = 0.0
 
-if northings == None:
-    northings = 0.0
+if Ns == None:
+    Ns = 0.0
 
-if north_angle == None:
-    north_angle = 0.0
+if Na == None:
+    Na = 0.0
 
-if origin_scale == None:
-    origin_scale = 1.0
+if Os == None:
+    Os = 1.0
 
 # Initialize model
-model = ifcopenshell.file.from_string(model_in.to_string())
+model = ifcopenshell.file.from_string(Mi.to_string())
 
 # Validate context
 # Georeferencig is assigned to the first context of type "Model" found in the model
@@ -50,20 +50,20 @@ else:
 
     ghenv.Component.AddRuntimeMessage(w, "No context was found. A new one is added, be aware that some objects are probably associated to different contexts.")
 
-context_id = context.id()
+CId = context.id()
 
 # Add georeferencing
 ifcopenshell.api.georeference.add_georeferencing(model)
 
 ifcopenshell.api.georeference.edit_georeferencing(model,
-    projected_crs={"Name": "EPSG:" + str(projected_crs)},
+    projected_crs={"Name": "EPSG:" + str(CRS)},
     coordinate_operation={
-        "Eastings": eastings, # False origin (horizontal)
-        "Northings": northings, # False origin (vertical)
-        "XAxisAbscissa": math.cos(math.radians(north_angle)), # Horizontal component of project north vector
-        "XAxisOrdinate": math.sin(math.radians(north_angle)), # Vertical component of project north vector
-        "Scale": origin_scale, # Scale factor at origin
+        "Eastings": Es, # False origin (horizontal)
+        "Northings": Ns, # False origin (vertical)
+        "XAxisAbscissa": math.cos(math.radians(Na)), # Horizontal component of project north vector
+        "XAxisOrdinate": math.sin(math.radians(Na)), # Vertical component of project north vector
+        "Scale": Os, # Scale factor at origin
     })
 
 # Save model
-model_out = model
+Mo = model

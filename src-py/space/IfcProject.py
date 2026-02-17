@@ -8,15 +8,15 @@ e = gh.GH_RuntimeMessageLevel.Error
 w = gh.GH_RuntimeMessageLevel.Warning
 
 # Set default values
-if name == None:
-    name = "Hopper Project"
+if N == None:
+    N = "Hopper Project"
 
 length = None
 area = None
 volume = None
 
 # Initialize model
-model = ifcopenshell.file.from_string(model_in.to_string())
+model = ifcopenshell.file.from_string(Mi.to_string())
 
 # Units
 if (str(Rhino.RhinoDoc.ActiveDoc.ModelUnitSystem) == "Nanometers"):
@@ -97,9 +97,9 @@ else:
     ghenv.Component.AddRuntimeMessage(w, warning_message)
 
 # Create project
-project = ifcopenshell.api.root.create_entity(model, ifc_class="IfcProject", name=name)
+project = ifcopenshell.api.root.create_entity(model, ifc_class="IfcProject", name=N)
 ifcopenshell.api.unit.assign_unit(model, units=[length, area, volume])
-project_id = project.id()
+PId = project.id()
 
 # Save model
-model_out = model
+Mo = model

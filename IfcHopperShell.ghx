@@ -49,10 +49,10 @@
             <chunk name="Projection">
               <items count="2">
                 <item name="Target" type_name="gh_drawing_point" type_code="30">
-                  <X>-123</X>
-                  <Y>52</Y>
+                  <X>-937</X>
+                  <Y>16</Y>
                 </item>
-                <item name="Zoom" type_name="gh_single" type_code="5">1</item>
+                <item name="Zoom" type_name="gh_single" type_code="5">1.1764705</item>
               </items>
             </chunk>
             <chunk name="Views">
@@ -92,9 +92,9 @@
         </chunk>
         <chunk name="DefinitionObjects">
           <items count="1">
-            <item name="ObjectCount" type_name="gh_int32" type_code="3">34</item>
+            <item name="ObjectCount" type_name="gh_int32" type_code="3">32</item>
           </items>
-          <chunks count="34">
+          <chunks count="32">
             <chunk name="Object" index="0">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">719467e6-7cf5-4848-99b0-c5dd57e5442c</item>
@@ -828,9 +828,9 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>1182</X>
+                          <X>1213</X>
                           <Y>248</Y>
-                          <W>147</W>
+                          <W>80</W>
                           <H>76</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
@@ -855,7 +855,7 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
                             <item name="Description" type_name="gh_string" type_code="10">The IfcOpenShell model.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">96e9656c-2aae-4a5e-9b6f-be864769faac</item>
                             <item name="Name" type_name="gh_string" type_code="10">Model</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">model_in</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">Mi</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -868,13 +868,13 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>1184</X>
+                                  <X>1215</X>
                                   <Y>250</Y>
-                                  <W>51</W>
+                                  <W>20</W>
                                   <H>36</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>1211</X>
+                                  <X>1226.5</X>
                                   <Y>268</Y>
                                 </item>
                               </items>
@@ -895,7 +895,7 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
 (Default is Hopper Project)</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">cf245905-9ce4-4e46-ae65-c8042cb76a75</item>
                             <item name="Name" type_name="gh_string" type_code="10">Name</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">name</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">N</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -910,13 +910,13 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>1184</X>
+                                  <X>1215</X>
                                   <Y>286</Y>
-                                  <W>51</W>
+                                  <W>20</W>
                                   <H>36</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>1211</X>
+                                  <X>1226.5</X>
                                   <Y>304</Y>
                                 </item>
                               </items>
@@ -935,7 +935,7 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
                             <item name="Description" type_name="gh_string" type_code="10">The IfcOpenShell model.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">590247be-b05e-4da6-b5d8-0f863ccf0fb9</item>
                             <item name="Name" type_name="gh_string" type_code="10">Model</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">model_out</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">Mo</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -950,11 +950,11 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>1265</X>
                                   <Y>250</Y>
-                                  <W>62</W>
+                                  <W>26</W>
                                   <H>36</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>1296</X>
+                                  <X>1278</X>
                                   <Y>268</Y>
                                 </item>
                               </items>
@@ -973,7 +973,7 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
                             <item name="Description" type_name="gh_string" type_code="10">The IFC project Id.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">d7a2fbf8-0409-44b6-b817-7e31b9eb2379</item>
                             <item name="Name" type_name="gh_string" type_code="10">Project Id</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">project_id</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">PId</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -988,11 +988,11 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>1265</X>
                                   <Y>286</Y>
-                                  <W>62</W>
+                                  <W>26</W>
                                   <H>36</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>1296</X>
+                                  <X>1278</X>
                                   <Y>304</Y>
                                 </item>
                               </items>
@@ -1012,7 +1012,7 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
                         <item name="MarshGuids" type_name="gh_bool" type_code="1">true</item>
                         <item name="MarshInputs" type_name="gh_bool" type_code="1">true</item>
                         <item name="MarshOutputs" type_name="gh_bool" type_code="1">true</item>
-                        <item name="Text" type_name="gh_string" type_code="10">aW1wb3J0IGlmY29wZW5zaGVsbC5hcGkucm9vdA0KaW1wb3J0IGdocHl0aG9ubGliLnRyZWVoZWxwZXJzIGFzIHRoDQppbXBvcnQgR3Jhc3Nob3BwZXIuS2VybmVsIGFzIGdoDQppbXBvcnQgUmhpbm8NCg0KIyBTaG9ydGN1dCBhbGlhc2VzIGZvciBHcmFzc2hvcHBlciBydW50aW1lIG1lc3NhZ2UgbGV2ZWxzDQplID0gZ2guR0hfUnVudGltZU1lc3NhZ2VMZXZlbC5FcnJvcg0KdyA9IGdoLkdIX1J1bnRpbWVNZXNzYWdlTGV2ZWwuV2FybmluZw0KDQojIFNldCBkZWZhdWx0IHZhbHVlcw0KaWYgbmFtZSA9PSBOb25lOg0KICAgIG5hbWUgPSAiSG9wcGVyIFByb2plY3QiDQoNCmxlbmd0aCA9IE5vbmUNCmFyZWEgPSBOb25lDQp2b2x1bWUgPSBOb25lDQoNCiMgSW5pdGlhbGl6ZSBtb2RlbA0KbW9kZWwgPSBpZmNvcGVuc2hlbGwuZmlsZS5mcm9tX3N0cmluZyhtb2RlbF9pbi50b19zdHJpbmcoKSkNCg0KIyBVbml0cw0KaWYgKHN0cihSaGluby5SaGlub0RvYy5BY3RpdmVEb2MuTW9kZWxVbml0U3lzdGVtKSA9PSAiTmFub21ldGVycyIpOg0KICAgIGxlbmd0aCA9IGlmY29wZW5zaGVsbC5hcGkudW5pdC5hZGRfc2lfdW5pdChtb2RlbCwgdW5pdF90eXBlPSJMRU5HVEhVTklUIiwgcHJlZml4PSJOQU5PIikNCiAgICBhcmVhID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IkFSRUFVTklUIiwgcHJlZml4PSJOQU5PIikNCiAgICB2b2x1bWUgPSBpZmNvcGVuc2hlbGwuYXBpLnVuaXQuYWRkX3NpX3VuaXQobW9kZWwsIHVuaXRfdHlwZT0iVk9MVU1FVU5JVCIsIHByZWZpeD0iTkFOTyIpDQoNCmVsaWYgKHN0cihSaGluby5SaGlub0RvYy5BY3RpdmVEb2MuTW9kZWxVbml0U3lzdGVtKSA9PSAiTWljcm9ucyIpOg0KICAgIGxlbmd0aCA9IGlmY29wZW5zaGVsbC5hcGkudW5pdC5hZGRfc2lfdW5pdChtb2RlbCwgdW5pdF90eXBlPSJMRU5HVEhVTklUIiwgcHJlZml4PSJNSUNSTyIpDQogICAgYXJlYSA9IGlmY29wZW5zaGVsbC5hcGkudW5pdC5hZGRfc2lfdW5pdChtb2RlbCwgdW5pdF90eXBlPSJBUkVBVU5JVCIsIHByZWZpeD0iTUlDUk8iKQ0KICAgIHZvbHVtZSA9IGlmY29wZW5zaGVsbC5hcGkudW5pdC5hZGRfc2lfdW5pdChtb2RlbCwgdW5pdF90eXBlPSJWT0xVTUVVTklUIiwgcHJlZml4PSJNSUNSTyIpDQoNCmVsaWYgKHN0cihSaGluby5SaGlub0RvYy5BY3RpdmVEb2MuTW9kZWxVbml0U3lzdGVtKSA9PSAiTWlsbGltZXRlcnMiKToNCiAgICBsZW5ndGggPSBpZmNvcGVuc2hlbGwuYXBpLnVuaXQuYWRkX3NpX3VuaXQobW9kZWwsIHVuaXRfdHlwZT0iTEVOR1RIVU5JVCIsIHByZWZpeD0iTUlMTEkiKQ0KICAgIGFyZWEgPSBpZmNvcGVuc2hlbGwuYXBpLnVuaXQuYWRkX3NpX3VuaXQobW9kZWwsIHVuaXRfdHlwZT0iQVJFQVVOSVQiLCBwcmVmaXg9Ik1JTExJIikNCiAgICB2b2x1bWUgPSBpZmNvcGVuc2hlbGwuYXBpLnVuaXQuYWRkX3NpX3VuaXQobW9kZWwsIHVuaXRfdHlwZT0iVk9MVU1FVU5JVCIsIHByZWZpeD0iTUlMTEkiKQ0KDQplbGlmIChzdHIoUmhpbm8uUmhpbm9Eb2MuQWN0aXZlRG9jLk1vZGVsVW5pdFN5c3RlbSkgPT0gIkNlbnRpbWV0ZXJzIik6DQogICAgbGVuZ3RoID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IkxFTkdUSFVOSVQiLCBwcmVmaXg9IkNFTlRJIikNCiAgICBhcmVhID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IkFSRUFVTklUIiwgcHJlZml4PSJDRU5USSIpDQogICAgdm9sdW1lID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IlZPTFVNRVVOSVQiLCBwcmVmaXg9IkNFTlRJIikNCg0KZWxpZiAoc3RyKFJoaW5vLlJoaW5vRG9jLkFjdGl2ZURvYy5Nb2RlbFVuaXRTeXN0ZW0pID09ICJEZWNpbWV0ZXJzIik6DQogICAgbGVuZ3RoID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IkxFTkdUSFVOSVQiLCBwcmVmaXg9IkRFQ0kiKQ0KICAgIGFyZWEgPSBpZmNvcGVuc2hlbGwuYXBpLnVuaXQuYWRkX3NpX3VuaXQobW9kZWwsIHVuaXRfdHlwZT0iQVJFQVVOSVQiLCBwcmVmaXg9IkRFQ0kiKQ0KICAgIHZvbHVtZSA9IGlmY29wZW5zaGVsbC5hcGkudW5pdC5hZGRfc2lfdW5pdChtb2RlbCwgdW5pdF90eXBlPSJWT0xVTUVVTklUIiwgcHJlZml4PSJERUNJIikNCg0KZWxpZiAoc3RyKFJoaW5vLlJoaW5vRG9jLkFjdGl2ZURvYy5Nb2RlbFVuaXRTeXN0ZW0pID09ICJNZXRlcnMiKToNCiAgICBsZW5ndGggPSBpZmNvcGVuc2hlbGwuYXBpLnVuaXQuYWRkX3NpX3VuaXQobW9kZWwsIHVuaXRfdHlwZT0iTEVOR1RIVU5JVCIpDQogICAgYXJlYSA9IGlmY29wZW5zaGVsbC5hcGkudW5pdC5hZGRfc2lfdW5pdChtb2RlbCwgdW5pdF90eXBlPSJBUkVBVU5JVCIpDQogICAgdm9sdW1lID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IlZPTFVNRVVOSVQiKQ0KDQplbGlmIChzdHIoUmhpbm8uUmhpbm9Eb2MuQWN0aXZlRG9jLk1vZGVsVW5pdFN5c3RlbSkgPT0gIkRla2FtZXRlcnMiKToNCiAgICBsZW5ndGggPSBpZmNvcGVuc2hlbGwuYXBpLnVuaXQuYWRkX3NpX3VuaXQobW9kZWwsIHVuaXRfdHlwZT0iTEVOR1RIVU5JVCIsIHByZWZpeD0iREVDQSIpDQogICAgYXJlYSA9IGlmY29wZW5zaGVsbC5hcGkudW5pdC5hZGRfc2lfdW5pdChtb2RlbCwgdW5pdF90eXBlPSJBUkVBVU5JVCIsIHByZWZpeD0iREVDQSIpDQogICAgdm9sdW1lID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IlZPTFVNRVVOSVQiLCBwcmVmaXg9IkRFQ0EiKQ0KDQplbGlmIChzdHIoUmhpbm8uUmhpbm9Eb2MuQWN0aXZlRG9jLk1vZGVsVW5pdFN5c3RlbSkgPT0gIkhlY3RvbWV0ZXJzIik6DQogICAgbGVuZ3RoID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IkxFTkdUSFVOSVQiLCBwcmVmaXg9IkhFQ1RPIikNCiAgICBhcmVhID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IkFSRUFVTklUIiwgcHJlZml4PSJIRUNUTyIpDQogICAgdm9sdW1lID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IlZPTFVNRVVOSVQiLCBwcmVmaXg9IkhFQ1RPIikNCg0KZWxpZiAoc3RyKFJoaW5vLlJoaW5vRG9jLkFjdGl2ZURvYy5Nb2RlbFVuaXRTeXN0ZW0pID09ICJLaWxvbWV0ZXJzIik6DQogICAgbGVuZ3RoID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IkxFTkdUSFVOSVQiLCBwcmVmaXg9IktJTE8iKQ0KICAgIGFyZWEgPSBpZmNvcGVuc2hlbGwuYXBpLnVuaXQuYWRkX3NpX3VuaXQobW9kZWwsIHVuaXRfdHlwZT0iQVJFQVVOSVQiLCBwcmVmaXg9IktJTE8iKQ0KICAgIHZvbHVtZSA9IGlmY29wZW5zaGVsbC5hcGkudW5pdC5hZGRfc2lfdW5pdChtb2RlbCwgdW5pdF90eXBlPSJWT0xVTUVVTklUIiwgcHJlZml4PSJLSUxPIikNCg0KZWxpZiAoc3RyKFJoaW5vLlJoaW5vRG9jLkFjdGl2ZURvYy5Nb2RlbFVuaXRTeXN0ZW0pID09ICJNZWdhbWV0ZXJzIik6DQogICAgbGVuZ3RoID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IkxFTkdUSFVOSVQiLCBwcmVmaXg9Ik1FR0EiKQ0KICAgIGFyZWEgPSBpZmNvcGVuc2hlbGwuYXBpLnVuaXQuYWRkX3NpX3VuaXQobW9kZWwsIHVuaXRfdHlwZT0iQVJFQVVOSVQiLCBwcmVmaXg9Ik1FR0EiKQ0KICAgIHZvbHVtZSA9IGlmY29wZW5zaGVsbC5hcGkudW5pdC5hZGRfc2lfdW5pdChtb2RlbCwgdW5pdF90eXBlPSJWT0xVTUVVTklUIiwgcHJlZml4PSJNRUdBIikNCg0KZWxpZiAoc3RyKFJoaW5vLlJoaW5vRG9jLkFjdGl2ZURvYy5Nb2RlbFVuaXRTeXN0ZW0pID09ICJHaWdhbWV0ZXJzIik6DQogICAgbGVuZ3RoID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IkxFTkdUSFVOSVQiLCBwcmVmaXg9IkdJR0EiKQ0KICAgIGFyZWEgPSBpZmNvcGVuc2hlbGwuYXBpLnVuaXQuYWRkX3NpX3VuaXQobW9kZWwsIHVuaXRfdHlwZT0iQVJFQVVOSVQiLCBwcmVmaXg9IkdJR0EiKQ0KICAgIHZvbHVtZSA9IGlmY29wZW5zaGVsbC5hcGkudW5pdC5hZGRfc2lfdW5pdChtb2RlbCwgdW5pdF90eXBlPSJWT0xVTUVVTklUIiwgcHJlZml4PSJHSUdBIikNCg0KZWxzZToNCiAgICAjIElmIHRoZSB1bml0cyBpcyBub3Qgb25lIG9mIHRoZSBhYm92ZSwgYXNzdW1lIHRoZSBtb2RlbCBpcyBpbiBtZXRlcnMgYW5kIHdhcm4gdGhlIHVzZXINCiAgICBsZW5ndGggPSBpZmNvcGVuc2hlbGwuYXBpLnVuaXQuYWRkX3NpX3VuaXQobW9kZWwsIHVuaXRfdHlwZT0iTEVOR1RIVU5JVCIpDQogICAgYXJlYSA9IGlmY29wZW5zaGVsbC5hcGkudW5pdC5hZGRfc2lfdW5pdChtb2RlbCwgdW5pdF90eXBlPSJBUkVBVU5JVCIpDQogICAgdm9sdW1lID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IlZPTFVNRVVOSVQiKQ0KICAgIA0KICAgIHdhcm5pbmdfbWVzc2FnZSA9ICIiIlVuc3VwcG9ydGVkIG1vZGVsIHVuaXQuIEFzc3VtaW5nIE1ldGVycy4NCiAgICANCiAgICBTdXBwb3J0ZWQgdW5pdHMgYXJlOg0KICAgICAtIE5hbm9tZXRlcnMNCiAgICAgLSBNaWNyb25zDQogICAgIC0gTWlsbGltZXRlcnMNCiAgICAgLSBDZW50aW1ldGVycw0KICAgICAtIERlY2ltZXRlcnMNCiAgICAgLSBNZXRlcnMNCiAgICAgLSBEZWthbWV0ZXJzDQogICAgIC0gSGVjdG9tZXRlcnMNCiAgICAgLSBLaWxvbWV0ZXJzDQogICAgIC0gTWVnYW1ldGVycw0KICAgICAtIEdpZ2FtZXRlcnMiIiINCiAgICBnaGVudi5Db21wb25lbnQuQWRkUnVudGltZU1lc3NhZ2Uodywgd2FybmluZ19tZXNzYWdlKQ0KDQojIENyZWF0ZSBwcm9qZWN0DQpwcm9qZWN0ID0gaWZjb3BlbnNoZWxsLmFwaS5yb290LmNyZWF0ZV9lbnRpdHkobW9kZWwsIGlmY19jbGFzcz0iSWZjUHJvamVjdCIsIG5hbWU9bmFtZSkNCmlmY29wZW5zaGVsbC5hcGkudW5pdC5hc3NpZ25fdW5pdChtb2RlbCwgdW5pdHM9W2xlbmd0aCwgYXJlYSwgdm9sdW1lXSkNCnByb2plY3RfaWQgPSBwcm9qZWN0LmlkKCkNCg0KIyBTYXZlIG1vZGVsDQptb2RlbF9vdXQgPSBtb2RlbA==</item>
+                        <item name="Text" type_name="gh_string" type_code="10">aW1wb3J0IGlmY29wZW5zaGVsbC5hcGkucm9vdA0KaW1wb3J0IGdocHl0aG9ubGliLnRyZWVoZWxwZXJzIGFzIHRoDQppbXBvcnQgR3Jhc3Nob3BwZXIuS2VybmVsIGFzIGdoDQppbXBvcnQgUmhpbm8NCg0KIyBTaG9ydGN1dCBhbGlhc2VzIGZvciBHcmFzc2hvcHBlciBydW50aW1lIG1lc3NhZ2UgbGV2ZWxzDQplID0gZ2guR0hfUnVudGltZU1lc3NhZ2VMZXZlbC5FcnJvcg0KdyA9IGdoLkdIX1J1bnRpbWVNZXNzYWdlTGV2ZWwuV2FybmluZw0KDQojIFNldCBkZWZhdWx0IHZhbHVlcw0KaWYgTiA9PSBOb25lOg0KICAgIE4gPSAiSG9wcGVyIFByb2plY3QiDQoNCmxlbmd0aCA9IE5vbmUNCmFyZWEgPSBOb25lDQp2b2x1bWUgPSBOb25lDQoNCiMgSW5pdGlhbGl6ZSBtb2RlbA0KbW9kZWwgPSBpZmNvcGVuc2hlbGwuZmlsZS5mcm9tX3N0cmluZyhNaS50b19zdHJpbmcoKSkNCg0KIyBVbml0cw0KaWYgKHN0cihSaGluby5SaGlub0RvYy5BY3RpdmVEb2MuTW9kZWxVbml0U3lzdGVtKSA9PSAiTmFub21ldGVycyIpOg0KICAgIGxlbmd0aCA9IGlmY29wZW5zaGVsbC5hcGkudW5pdC5hZGRfc2lfdW5pdChtb2RlbCwgdW5pdF90eXBlPSJMRU5HVEhVTklUIiwgcHJlZml4PSJOQU5PIikNCiAgICBhcmVhID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IkFSRUFVTklUIiwgcHJlZml4PSJOQU5PIikNCiAgICB2b2x1bWUgPSBpZmNvcGVuc2hlbGwuYXBpLnVuaXQuYWRkX3NpX3VuaXQobW9kZWwsIHVuaXRfdHlwZT0iVk9MVU1FVU5JVCIsIHByZWZpeD0iTkFOTyIpDQoNCmVsaWYgKHN0cihSaGluby5SaGlub0RvYy5BY3RpdmVEb2MuTW9kZWxVbml0U3lzdGVtKSA9PSAiTWljcm9ucyIpOg0KICAgIGxlbmd0aCA9IGlmY29wZW5zaGVsbC5hcGkudW5pdC5hZGRfc2lfdW5pdChtb2RlbCwgdW5pdF90eXBlPSJMRU5HVEhVTklUIiwgcHJlZml4PSJNSUNSTyIpDQogICAgYXJlYSA9IGlmY29wZW5zaGVsbC5hcGkudW5pdC5hZGRfc2lfdW5pdChtb2RlbCwgdW5pdF90eXBlPSJBUkVBVU5JVCIsIHByZWZpeD0iTUlDUk8iKQ0KICAgIHZvbHVtZSA9IGlmY29wZW5zaGVsbC5hcGkudW5pdC5hZGRfc2lfdW5pdChtb2RlbCwgdW5pdF90eXBlPSJWT0xVTUVVTklUIiwgcHJlZml4PSJNSUNSTyIpDQoNCmVsaWYgKHN0cihSaGluby5SaGlub0RvYy5BY3RpdmVEb2MuTW9kZWxVbml0U3lzdGVtKSA9PSAiTWlsbGltZXRlcnMiKToNCiAgICBsZW5ndGggPSBpZmNvcGVuc2hlbGwuYXBpLnVuaXQuYWRkX3NpX3VuaXQobW9kZWwsIHVuaXRfdHlwZT0iTEVOR1RIVU5JVCIsIHByZWZpeD0iTUlMTEkiKQ0KICAgIGFyZWEgPSBpZmNvcGVuc2hlbGwuYXBpLnVuaXQuYWRkX3NpX3VuaXQobW9kZWwsIHVuaXRfdHlwZT0iQVJFQVVOSVQiLCBwcmVmaXg9Ik1JTExJIikNCiAgICB2b2x1bWUgPSBpZmNvcGVuc2hlbGwuYXBpLnVuaXQuYWRkX3NpX3VuaXQobW9kZWwsIHVuaXRfdHlwZT0iVk9MVU1FVU5JVCIsIHByZWZpeD0iTUlMTEkiKQ0KDQplbGlmIChzdHIoUmhpbm8uUmhpbm9Eb2MuQWN0aXZlRG9jLk1vZGVsVW5pdFN5c3RlbSkgPT0gIkNlbnRpbWV0ZXJzIik6DQogICAgbGVuZ3RoID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IkxFTkdUSFVOSVQiLCBwcmVmaXg9IkNFTlRJIikNCiAgICBhcmVhID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IkFSRUFVTklUIiwgcHJlZml4PSJDRU5USSIpDQogICAgdm9sdW1lID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IlZPTFVNRVVOSVQiLCBwcmVmaXg9IkNFTlRJIikNCg0KZWxpZiAoc3RyKFJoaW5vLlJoaW5vRG9jLkFjdGl2ZURvYy5Nb2RlbFVuaXRTeXN0ZW0pID09ICJEZWNpbWV0ZXJzIik6DQogICAgbGVuZ3RoID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IkxFTkdUSFVOSVQiLCBwcmVmaXg9IkRFQ0kiKQ0KICAgIGFyZWEgPSBpZmNvcGVuc2hlbGwuYXBpLnVuaXQuYWRkX3NpX3VuaXQobW9kZWwsIHVuaXRfdHlwZT0iQVJFQVVOSVQiLCBwcmVmaXg9IkRFQ0kiKQ0KICAgIHZvbHVtZSA9IGlmY29wZW5zaGVsbC5hcGkudW5pdC5hZGRfc2lfdW5pdChtb2RlbCwgdW5pdF90eXBlPSJWT0xVTUVVTklUIiwgcHJlZml4PSJERUNJIikNCg0KZWxpZiAoc3RyKFJoaW5vLlJoaW5vRG9jLkFjdGl2ZURvYy5Nb2RlbFVuaXRTeXN0ZW0pID09ICJNZXRlcnMiKToNCiAgICBsZW5ndGggPSBpZmNvcGVuc2hlbGwuYXBpLnVuaXQuYWRkX3NpX3VuaXQobW9kZWwsIHVuaXRfdHlwZT0iTEVOR1RIVU5JVCIpDQogICAgYXJlYSA9IGlmY29wZW5zaGVsbC5hcGkudW5pdC5hZGRfc2lfdW5pdChtb2RlbCwgdW5pdF90eXBlPSJBUkVBVU5JVCIpDQogICAgdm9sdW1lID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IlZPTFVNRVVOSVQiKQ0KDQplbGlmIChzdHIoUmhpbm8uUmhpbm9Eb2MuQWN0aXZlRG9jLk1vZGVsVW5pdFN5c3RlbSkgPT0gIkRla2FtZXRlcnMiKToNCiAgICBsZW5ndGggPSBpZmNvcGVuc2hlbGwuYXBpLnVuaXQuYWRkX3NpX3VuaXQobW9kZWwsIHVuaXRfdHlwZT0iTEVOR1RIVU5JVCIsIHByZWZpeD0iREVDQSIpDQogICAgYXJlYSA9IGlmY29wZW5zaGVsbC5hcGkudW5pdC5hZGRfc2lfdW5pdChtb2RlbCwgdW5pdF90eXBlPSJBUkVBVU5JVCIsIHByZWZpeD0iREVDQSIpDQogICAgdm9sdW1lID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IlZPTFVNRVVOSVQiLCBwcmVmaXg9IkRFQ0EiKQ0KDQplbGlmIChzdHIoUmhpbm8uUmhpbm9Eb2MuQWN0aXZlRG9jLk1vZGVsVW5pdFN5c3RlbSkgPT0gIkhlY3RvbWV0ZXJzIik6DQogICAgbGVuZ3RoID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IkxFTkdUSFVOSVQiLCBwcmVmaXg9IkhFQ1RPIikNCiAgICBhcmVhID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IkFSRUFVTklUIiwgcHJlZml4PSJIRUNUTyIpDQogICAgdm9sdW1lID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IlZPTFVNRVVOSVQiLCBwcmVmaXg9IkhFQ1RPIikNCg0KZWxpZiAoc3RyKFJoaW5vLlJoaW5vRG9jLkFjdGl2ZURvYy5Nb2RlbFVuaXRTeXN0ZW0pID09ICJLaWxvbWV0ZXJzIik6DQogICAgbGVuZ3RoID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IkxFTkdUSFVOSVQiLCBwcmVmaXg9IktJTE8iKQ0KICAgIGFyZWEgPSBpZmNvcGVuc2hlbGwuYXBpLnVuaXQuYWRkX3NpX3VuaXQobW9kZWwsIHVuaXRfdHlwZT0iQVJFQVVOSVQiLCBwcmVmaXg9IktJTE8iKQ0KICAgIHZvbHVtZSA9IGlmY29wZW5zaGVsbC5hcGkudW5pdC5hZGRfc2lfdW5pdChtb2RlbCwgdW5pdF90eXBlPSJWT0xVTUVVTklUIiwgcHJlZml4PSJLSUxPIikNCg0KZWxpZiAoc3RyKFJoaW5vLlJoaW5vRG9jLkFjdGl2ZURvYy5Nb2RlbFVuaXRTeXN0ZW0pID09ICJNZWdhbWV0ZXJzIik6DQogICAgbGVuZ3RoID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IkxFTkdUSFVOSVQiLCBwcmVmaXg9Ik1FR0EiKQ0KICAgIGFyZWEgPSBpZmNvcGVuc2hlbGwuYXBpLnVuaXQuYWRkX3NpX3VuaXQobW9kZWwsIHVuaXRfdHlwZT0iQVJFQVVOSVQiLCBwcmVmaXg9Ik1FR0EiKQ0KICAgIHZvbHVtZSA9IGlmY29wZW5zaGVsbC5hcGkudW5pdC5hZGRfc2lfdW5pdChtb2RlbCwgdW5pdF90eXBlPSJWT0xVTUVVTklUIiwgcHJlZml4PSJNRUdBIikNCg0KZWxpZiAoc3RyKFJoaW5vLlJoaW5vRG9jLkFjdGl2ZURvYy5Nb2RlbFVuaXRTeXN0ZW0pID09ICJHaWdhbWV0ZXJzIik6DQogICAgbGVuZ3RoID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IkxFTkdUSFVOSVQiLCBwcmVmaXg9IkdJR0EiKQ0KICAgIGFyZWEgPSBpZmNvcGVuc2hlbGwuYXBpLnVuaXQuYWRkX3NpX3VuaXQobW9kZWwsIHVuaXRfdHlwZT0iQVJFQVVOSVQiLCBwcmVmaXg9IkdJR0EiKQ0KICAgIHZvbHVtZSA9IGlmY29wZW5zaGVsbC5hcGkudW5pdC5hZGRfc2lfdW5pdChtb2RlbCwgdW5pdF90eXBlPSJWT0xVTUVVTklUIiwgcHJlZml4PSJHSUdBIikNCg0KZWxzZToNCiAgICAjIElmIHRoZSB1bml0cyBpcyBub3Qgb25lIG9mIHRoZSBhYm92ZSwgYXNzdW1lIHRoZSBtb2RlbCBpcyBpbiBtZXRlcnMgYW5kIHdhcm4gdGhlIHVzZXINCiAgICBsZW5ndGggPSBpZmNvcGVuc2hlbGwuYXBpLnVuaXQuYWRkX3NpX3VuaXQobW9kZWwsIHVuaXRfdHlwZT0iTEVOR1RIVU5JVCIpDQogICAgYXJlYSA9IGlmY29wZW5zaGVsbC5hcGkudW5pdC5hZGRfc2lfdW5pdChtb2RlbCwgdW5pdF90eXBlPSJBUkVBVU5JVCIpDQogICAgdm9sdW1lID0gaWZjb3BlbnNoZWxsLmFwaS51bml0LmFkZF9zaV91bml0KG1vZGVsLCB1bml0X3R5cGU9IlZPTFVNRVVOSVQiKQ0KICAgIA0KICAgIHdhcm5pbmdfbWVzc2FnZSA9ICIiIlVuc3VwcG9ydGVkIG1vZGVsIHVuaXQuIEFzc3VtaW5nIE1ldGVycy4NCiAgICANCiAgICBTdXBwb3J0ZWQgdW5pdHMgYXJlOg0KICAgICAtIE5hbm9tZXRlcnMNCiAgICAgLSBNaWNyb25zDQogICAgIC0gTWlsbGltZXRlcnMNCiAgICAgLSBDZW50aW1ldGVycw0KICAgICAtIERlY2ltZXRlcnMNCiAgICAgLSBNZXRlcnMNCiAgICAgLSBEZWthbWV0ZXJzDQogICAgIC0gSGVjdG9tZXRlcnMNCiAgICAgLSBLaWxvbWV0ZXJzDQogICAgIC0gTWVnYW1ldGVycw0KICAgICAtIEdpZ2FtZXRlcnMiIiINCiAgICBnaGVudi5Db21wb25lbnQuQWRkUnVudGltZU1lc3NhZ2Uodywgd2FybmluZ19tZXNzYWdlKQ0KDQojIENyZWF0ZSBwcm9qZWN0DQpwcm9qZWN0ID0gaWZjb3BlbnNoZWxsLmFwaS5yb290LmNyZWF0ZV9lbnRpdHkobW9kZWwsIGlmY19jbGFzcz0iSWZjUHJvamVjdCIsIG5hbWU9TikNCmlmY29wZW5zaGVsbC5hcGkudW5pdC5hc3NpZ25fdW5pdChtb2RlbCwgdW5pdHM9W2xlbmd0aCwgYXJlYSwgdm9sdW1lXSkNClBJZCA9IHByb2plY3QuaWQoKQ0KDQojIFNhdmUgbW9kZWwNCk1vID0gbW9kZWw=</item>
                         <item name="Title" type_name="gh_string" type_code="10">IfcProject</item>
                       </items>
                       <chunks count="1">
@@ -1027,10 +1027,10 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
                     <chunk name="ScriptEditor">
                       <items count="1">
                         <item name="StartBounds" type_name="gh_drawing_rectangle" type_code="34">
-                          <X>595</X>
-                          <Y>171</Y>
-                          <W>984</W>
-                          <H>1129</H>
+                          <X>3513</X>
+                          <Y>116</Y>
+                          <W>958</W>
+                          <H>1111</H>
                         </item>
                       </items>
                     </chunk>
@@ -1066,13 +1066,13 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>1182</X>
+                          <X>1224</X>
                           <Y>491</Y>
-                          <W>188</W>
+                          <W>91</W>
                           <H>64</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>1291</X>
+                          <X>1272</X>
                           <Y>523</Y>
                         </item>
                       </items>
@@ -1094,7 +1094,7 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
                             <item name="Description" type_name="gh_string" type_code="10">The IfcOpenShell model.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">cfa51730-3829-4a09-b036-d736ac2d5c72</item>
                             <item name="Name" type_name="gh_string" type_code="10">Model</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">model_in</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">Mi</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -1107,13 +1107,13 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>1184</X>
+                                  <X>1226</X>
                                   <Y>493</Y>
-                                  <W>92</W>
+                                  <W>31</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>1231.5</X>
+                                  <X>1243</X>
                                   <Y>503</Y>
                                 </item>
                               </items>
@@ -1154,7 +1154,7 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
                             <item name="Description" type_name="gh_string" type_code="10">The relating object ID, usually a project ID.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">43de446e-ca4f-411f-853d-5b14614b64e0</item>
                             <item name="Name" type_name="gh_string" type_code="10">Relating Object Id</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">relating_object_id</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">ROId</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -1167,13 +1167,13 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>1184</X>
+                                  <X>1226</X>
                                   <Y>513</Y>
-                                  <W>92</W>
+                                  <W>31</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>1231.5</X>
+                                  <X>1243</X>
                                   <Y>523</Y>
                                 </item>
                               </items>
@@ -1195,7 +1195,7 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
 (Default is "Hopper Site")</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">f758da5c-4194-49ba-b42b-26836dbc4a44</item>
                             <item name="Name" type_name="gh_string" type_code="10">Name</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">name</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">N</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">1</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -1210,13 +1210,13 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>1184</X>
+                                  <X>1226</X>
                                   <Y>533</Y>
-                                  <W>92</W>
+                                  <W>31</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>1231.5</X>
+                                  <X>1243</X>
                                   <Y>543</Y>
                                 </item>
                               </items>
@@ -1235,7 +1235,7 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
                             <item name="Description" type_name="gh_string" type_code="10">The IfcOpenShell model.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">21ea4c38-ee71-4bcd-ac01-c066f2092a15</item>
                             <item name="Name" type_name="gh_string" type_code="10">Model</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">model_out</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">Mo</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -1248,13 +1248,13 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>1306</X>
+                                  <X>1287</X>
                                   <Y>493</Y>
-                                  <W>62</W>
+                                  <W>26</W>
                                   <H>30</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>1337</X>
+                                  <X>1300</X>
                                   <Y>508</Y>
                                 </item>
                               </items>
@@ -1273,7 +1273,7 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
                             <item name="Description" type_name="gh_string" type_code="10">The IFC site Id.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">76b6fbe6-0c37-4943-9a43-d594595951c2</item>
                             <item name="Name" type_name="gh_string" type_code="10">Site Id</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">site_id</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">SId</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -1286,13 +1286,13 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>1306</X>
+                                  <X>1287</X>
                                   <Y>523</Y>
-                                  <W>62</W>
+                                  <W>26</W>
                                   <H>30</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>1337</X>
+                                  <X>1300</X>
                                   <Y>538</Y>
                                 </item>
                               </items>
@@ -1312,7 +1312,7 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
                         <item name="MarshGuids" type_name="gh_bool" type_code="1">true</item>
                         <item name="MarshInputs" type_name="gh_bool" type_code="1">true</item>
                         <item name="MarshOutputs" type_name="gh_bool" type_code="1">true</item>
-                        <item name="Text" type_name="gh_string" type_code="10">aW1wb3J0IGlmY29wZW5zaGVsbC5hcGkucm9vdA0KDQojIFNldCBkZWZhdWx0IHZhbHVlcw0KaWYgbmFtZSA9PSBOb25lOg0KICAgIG5hbWUgPSBbIkhvcHBlciBTaXRlIl0NCg0KIyBJbml0aWFsaXplIG1vZGVsDQptb2RlbCA9IGlmY29wZW5zaGVsbC5maWxlLmZyb21fc3RyaW5nKG1vZGVsX2luLnRvX3N0cmluZygpKQ0KDQojIEluaXRhbGl6ZSBlbXB0eSBhcnJheQ0Kc2l0ZV9pZCA9IFtdDQoNCiMgQ3JlYXRlIHNpdGVzIChvbmUgcGVyIG5hbWUpDQpmb3IgaSBpbiByYW5nZShsZW4obmFtZSkpOg0KICAgIHNpdGUgPSBpZmNvcGVuc2hlbGwuYXBpLnJvb3QuY3JlYXRlX2VudGl0eShtb2RlbCwgaWZjX2NsYXNzPSJJZmNTaXRlIiwgbmFtZT1uYW1lW2ldKQ0KICAgIHJlbGF0aW5nX29iamVjdCA9IG1vZGVsLmJ5X2lkKHJlbGF0aW5nX29iamVjdF9pZCkNCiAgICBpZmNvcGVuc2hlbGwuYXBpLmFnZ3JlZ2F0ZS5hc3NpZ25fb2JqZWN0KG1vZGVsLCByZWxhdGluZ19vYmplY3Q9cmVsYXRpbmdfb2JqZWN0LCBwcm9kdWN0cz1bc2l0ZV0pDQoNCiAgICBzaXRlX2lkLmFwcGVuZChpbnQoc2l0ZS5pZCgpKSkNCg0KIyBTYXZlIG1vZGVsDQptb2RlbF9vdXQgPSBtb2RlbA==</item>
+                        <item name="Text" type_name="gh_string" type_code="10">aW1wb3J0IGlmY29wZW5zaGVsbC5hcGkucm9vdA0KDQojIFNldCBkZWZhdWx0IHZhbHVlcw0KaWYgTiA9PSBOb25lOg0KICAgIE4gPSBbIkhvcHBlciBTaXRlIl0NCg0KIyBJbml0aWFsaXplIG1vZGVsDQptb2RlbCA9IGlmY29wZW5zaGVsbC5maWxlLmZyb21fc3RyaW5nKE1pLnRvX3N0cmluZygpKQ0KDQojIEluaXRhbGl6ZSBlbXB0eSBhcnJheQ0KU0lkID0gW10NCg0KIyBDcmVhdGUgc2l0ZXMgKG9uZSBwZXIgbmFtZSkNCmZvciBpIGluIHJhbmdlKGxlbihOKSk6DQogICAgc2l0ZSA9IGlmY29wZW5zaGVsbC5hcGkucm9vdC5jcmVhdGVfZW50aXR5KG1vZGVsLCBpZmNfY2xhc3M9IklmY1NpdGUiLCBuYW1lPU5baV0pDQogICAgcmVsYXRpbmdfb2JqZWN0ID0gbW9kZWwuYnlfaWQoUk9JZCkNCiAgICBpZmNvcGVuc2hlbGwuYXBpLmFnZ3JlZ2F0ZS5hc3NpZ25fb2JqZWN0KG1vZGVsLCByZWxhdGluZ19vYmplY3Q9cmVsYXRpbmdfb2JqZWN0LCBwcm9kdWN0cz1bc2l0ZV0pDQoNCiAgICBTSWQuYXBwZW5kKGludChzaXRlLmlkKCkpKQ0KDQojIFNhdmUgbW9kZWwNCk1vID0gbW9kZWw=</item>
                         <item name="Title" type_name="gh_string" type_code="10">IfcSite</item>
                       </items>
                       <chunks count="1">
@@ -1327,10 +1327,10 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
                     <chunk name="ScriptEditor">
                       <items count="1">
                         <item name="StartBounds" type_name="gh_drawing_rectangle" type_code="34">
-                          <X>372</X>
-                          <Y>129</Y>
+                          <X>2560</X>
+                          <Y>203</Y>
                           <W>1920</W>
-                          <H>1129</H>
+                          <H>1160</H>
                         </item>
                       </items>
                     </chunk>
@@ -1366,9 +1366,9 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>1586</X>
+                          <X>1650</X>
                           <Y>248</Y>
-                          <W>189</W>
+                          <W>89</W>
                           <H>104</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
@@ -1396,7 +1396,7 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
                             <item name="Description" type_name="gh_string" type_code="10">The IfcOpenShell model.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">414d542d-eb07-4d10-90ba-066d94f8d119</item>
                             <item name="Name" type_name="gh_string" type_code="10">Model</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">model_in</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">Mi</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -1409,13 +1409,13 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>1588</X>
+                                  <X>1652</X>
                                   <Y>250</Y>
-                                  <W>93</W>
+                                  <W>29</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>1636</X>
+                                  <X>1668</X>
                                   <Y>260</Y>
                                 </item>
                               </items>
@@ -1436,7 +1436,7 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
 (Default is "Model")</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">1949d8c9-2702-463a-ac5a-29c093924a11</item>
                             <item name="Name" type_name="gh_string" type_code="10">Context Type</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">context_type</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">Ct</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -1451,13 +1451,13 @@ Can be "IFC2X3", "IFC4" or "IFC4X3".
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>1588</X>
+                                  <X>1652</X>
                                   <Y>270</Y>
-                                  <W>93</W>
+                                  <W>29</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>1636</X>
+                                  <X>1668</X>
                                   <Y>280</Y>
                                 </item>
                               </items>
@@ -1487,7 +1487,7 @@ Can be:
 (Default is "Body")</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">72089556-c4c8-4abc-9a1d-9872e31f8d63</item>
                             <item name="Name" type_name="gh_string" type_code="10">Context Identifier</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">context_identifier</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">Ci</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -1511,13 +1511,13 @@ Can be:
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>1588</X>
+                                  <X>1652</X>
                                   <Y>290</Y>
-                                  <W>93</W>
+                                  <W>29</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>1636</X>
+                                  <X>1668</X>
                                   <Y>300</Y>
                                 </item>
                               </items>
@@ -1553,7 +1553,7 @@ in bubble diagrams of spatial topology
 (Default is "MODEL_VIEW")</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">cca8f542-a5fd-4be8-b9ce-7a2346afde9a</item>
                             <item name="Name" type_name="gh_string" type_code="10">Target View</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">target_view</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">Tv</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -1583,13 +1583,13 @@ in bubble diagrams of spatial topology
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>1588</X>
+                                  <X>1652</X>
                                   <Y>310</Y>
-                                  <W>93</W>
+                                  <W>29</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>1636</X>
+                                  <X>1668</X>
                                   <Y>320</Y>
                                 </item>
                               </items>
@@ -1608,7 +1608,7 @@ in bubble diagrams of spatial topology
                             <item name="Description" type_name="gh_string" type_code="10">If this is a subcontext, a parent context id should be provided.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">64637765-bbbd-469d-b888-e39cbdd3aca9</item>
                             <item name="Name" type_name="gh_string" type_code="10">Parent Id</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">parent_context_id</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">PCId</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -1621,13 +1621,13 @@ in bubble diagrams of spatial topology
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>1588</X>
+                                  <X>1652</X>
                                   <Y>330</Y>
-                                  <W>93</W>
+                                  <W>29</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>1636</X>
+                                  <X>1668</X>
                                   <Y>340</Y>
                                 </item>
                               </items>
@@ -1646,7 +1646,7 @@ in bubble diagrams of spatial topology
                             <item name="Description" type_name="gh_string" type_code="10">The IfcOpenShell model.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">0d03c617-b657-42a1-b456-555c2454bc47</item>
                             <item name="Name" type_name="gh_string" type_code="10">Model</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">model_out</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">Mo</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -1661,11 +1661,11 @@ in bubble diagrams of spatial topology
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>1711</X>
                                   <Y>250</Y>
-                                  <W>62</W>
+                                  <W>26</W>
                                   <H>50</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>1742</X>
+                                  <X>1724</X>
                                   <Y>275</Y>
                                 </item>
                               </items>
@@ -1684,7 +1684,7 @@ in bubble diagrams of spatial topology
                             <item name="Description" type_name="gh_string" type_code="10">The IFC context Id.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">da327f44-9f53-4c17-9932-bab105d8a905</item>
                             <item name="Name" type_name="gh_string" type_code="10">Context Id</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">context_id</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">CId</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -1699,11 +1699,11 @@ in bubble diagrams of spatial topology
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>1711</X>
                                   <Y>300</Y>
-                                  <W>62</W>
+                                  <W>26</W>
                                   <H>50</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>1742</X>
+                                  <X>1724</X>
                                   <Y>325</Y>
                                 </item>
                               </items>
@@ -1723,7 +1723,7 @@ in bubble diagrams of spatial topology
                         <item name="MarshGuids" type_name="gh_bool" type_code="1">true</item>
                         <item name="MarshInputs" type_name="gh_bool" type_code="1">true</item>
                         <item name="MarshOutputs" type_name="gh_bool" type_code="1">true</item>
-                        <item name="Text" type_name="gh_string" type_code="10">aW1wb3J0IGlmY29wZW5zaGVsbC5hcGkucm9vdA0KDQojIFNldCBkZWZhdWx0IHZhbHVlcw0KaWYgY29udGV4dF90eXBlID09IE5vbmU6DQogICAgY29udGV4dF90eXBlID0gIk1vZGVsIg0KDQppZiBjb250ZXh0X2lkZW50aWZpZXIgPT0gTm9uZToNCiAgICBjb250ZXh0X2lkZW50aWZpZXIgPSAiQm9keSINCg0KaWYgdGFyZ2V0X3ZpZXcgPT0gTm9uZToNCiAgICB0YXJnZXRfdmlldyA9ICJNT0RFTF9WSUVXIg0KDQojIEluaXRpYWxpemUgbW9kZWwNCm1vZGVsID0gaWZjb3BlbnNoZWxsLmZpbGUuZnJvbV9zdHJpbmcobW9kZWxfaW4udG9fc3RyaW5nKCkpDQoNCiMgU3ViY290ZXh0DQppZiBwYXJlbnRfY29udGV4dF9pZCAhPSBOb25lOg0KICAgIHBhcmVudCA9IG1vZGVsLmJ5X2lkKHBhcmVudF9jb250ZXh0X2lkKQ0KICAgIGNvbnRleHQgPSBpZmNvcGVuc2hlbGwuYXBpLmNvbnRleHQuYWRkX2NvbnRleHQobW9kZWwsIGNvbnRleHRfdHlwZT1jb250ZXh0X3R5cGUsDQogICAgICAgIGNvbnRleHRfaWRlbnRpZmllcj1jb250ZXh0X2lkZW50aWZpZXIsIHRhcmdldF92aWV3PXRhcmdldF92aWV3LCBwYXJlbnQ9cGFyZW50KQ0KDQojIENvbnRleHQNCmVsc2U6DQogICAgY29udGV4dCA9IGlmY29wZW5zaGVsbC5hcGkuY29udGV4dC5hZGRfY29udGV4dChtb2RlbCwgY29udGV4dF90eXBlPWNvbnRleHRfdHlwZSwNCiAgICAgICAgY29udGV4dF9pZGVudGlmaWVyPWNvbnRleHRfaWRlbnRpZmllciwgdGFyZ2V0X3ZpZXc9dGFyZ2V0X3ZpZXcpDQoNCmNvbnRleHRfaWQgPSBjb250ZXh0LmlkKCkNCg0KIyBTYXZlIG1vZGVsDQptb2RlbF9vdXQgPSBtb2RlbA==</item>
+                        <item name="Text" type_name="gh_string" type_code="10">aW1wb3J0IGlmY29wZW5zaGVsbC5hcGkucm9vdA0KDQojIFNldCBkZWZhdWx0IHZhbHVlcw0KaWYgQ3QgPT0gTm9uZToNCiAgICBDdCA9ICJNb2RlbCINCg0KaWYgQ2kgPT0gTm9uZToNCiAgICBDaSA9ICJCb2R5Ig0KDQppZiBUdiA9PSBOb25lOg0KICAgIFR2ID0gIk1PREVMX1ZJRVciDQoNCiMgSW5pdGlhbGl6ZSBtb2RlbA0KbW9kZWwgPSBpZmNvcGVuc2hlbGwuZmlsZS5mcm9tX3N0cmluZyhNaS50b19zdHJpbmcoKSkNCg0KIyBTdWJjb3RleHQNCmlmIFBDSWQgIT0gTm9uZToNCiAgICBwYXJlbnQgPSBtb2RlbC5ieV9pZChQQ0lkKQ0KICAgIGNvbnRleHQgPSBpZmNvcGVuc2hlbGwuYXBpLmNvbnRleHQuYWRkX2NvbnRleHQobW9kZWwsIGNvbnRleHRfdHlwZT1DdCwNCiAgICAgICAgY29udGV4dF9pZGVudGlmaWVyPUNpLCB0YXJnZXRfdmlldz1UdiwgcGFyZW50PXBhcmVudCkNCg0KIyBDb250ZXh0DQplbHNlOg0KICAgIGNvbnRleHQgPSBpZmNvcGVuc2hlbGwuYXBpLmNvbnRleHQuYWRkX2NvbnRleHQobW9kZWwsIGNvbnRleHRfdHlwZT1DdCwNCiAgICAgICAgY29udGV4dF9pZGVudGlmaWVyPUNpLCB0YXJnZXRfdmlldz1UdikNCg0KQ0lkID0gY29udGV4dC5pZCgpDQoNCiMgU2F2ZSBtb2RlbA0KTW8gPSBtb2RlbA==</item>
                         <item name="Title" type_name="gh_string" type_code="10">IfcContext</item>
                       </items>
                       <chunks count="1">
@@ -1738,10 +1738,10 @@ in bubble diagrams of spatial topology
                     <chunk name="ScriptEditor">
                       <items count="1">
                         <item name="StartBounds" type_name="gh_drawing_rectangle" type_code="34">
-                          <X>1120</X>
-                          <Y>219</Y>
+                          <X>3436</X>
+                          <Y>116</Y>
                           <W>984</W>
-                          <H>1081</H>
+                          <H>1131</H>
                         </item>
                       </items>
                     </chunk>
@@ -1777,9 +1777,9 @@ in bubble diagrams of spatial topology
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>1996</X>
+                          <X>2057</X>
                           <Y>248</Y>
-                          <W>190</W>
+                          <W>91</W>
                           <H>84</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
@@ -1805,7 +1805,7 @@ in bubble diagrams of spatial topology
                             <item name="Description" type_name="gh_string" type_code="10">The IfcOpenShell model.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">50978ff4-b740-42ef-8373-04557a7f0baf</item>
                             <item name="Name" type_name="gh_string" type_code="10">Model</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">model_in</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">Mi</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -1818,13 +1818,13 @@ in bubble diagrams of spatial topology
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>1998</X>
+                                  <X>2059</X>
                                   <Y>250</Y>
-                                  <W>92</W>
+                                  <W>31</W>
                                   <H>26</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2045.5</X>
+                                  <X>2076</X>
                                   <Y>263.33334</Y>
                                 </item>
                               </items>
@@ -1843,7 +1843,7 @@ in bubble diagrams of spatial topology
                             <item name="Description" type_name="gh_string" type_code="10">The relating object id, usually an Ifc Site.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">a8d949ed-05b0-495e-af64-fdf1817b53fe</item>
                             <item name="Name" type_name="gh_string" type_code="10">Relating Object Id</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">relating_object_id</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">ROId</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -1856,13 +1856,13 @@ in bubble diagrams of spatial topology
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>1998</X>
+                                  <X>2059</X>
                                   <Y>276</Y>
-                                  <W>92</W>
+                                  <W>31</W>
                                   <H>27</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2045.5</X>
+                                  <X>2076</X>
                                   <Y>290</Y>
                                 </item>
                               </items>
@@ -1884,7 +1884,7 @@ in bubble diagrams of spatial topology
 (Default is "Hopper Building")</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">3854affe-0fd2-4e6b-9cd1-8b045c57273a</item>
                             <item name="Name" type_name="gh_string" type_code="10">Name</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">name</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">N</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">1</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -1899,13 +1899,13 @@ in bubble diagrams of spatial topology
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>1998</X>
+                                  <X>2059</X>
                                   <Y>303</Y>
-                                  <W>92</W>
+                                  <W>31</W>
                                   <H>27</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2045.5</X>
+                                  <X>2076</X>
                                   <Y>316.6667</Y>
                                 </item>
                               </items>
@@ -1924,7 +1924,7 @@ in bubble diagrams of spatial topology
                             <item name="Description" type_name="gh_string" type_code="10">The IfcOpenShell model.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">68edc04e-51ed-4e9e-9dd0-5604f26b99d5</item>
                             <item name="Name" type_name="gh_string" type_code="10">Model</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">model_out</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">Mo</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -1939,11 +1939,11 @@ in bubble diagrams of spatial topology
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>2120</X>
                                   <Y>250</Y>
-                                  <W>64</W>
+                                  <W>26</W>
                                   <H>40</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2152</X>
+                                  <X>2133</X>
                                   <Y>270</Y>
                                 </item>
                               </items>
@@ -1962,7 +1962,7 @@ in bubble diagrams of spatial topology
                             <item name="Description" type_name="gh_string" type_code="10">The IFC building Id.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">bfd171c3-0c48-48a7-a63a-668bf60aec06</item>
                             <item name="Name" type_name="gh_string" type_code="10">Building Id</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">building_id</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">BId</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -1977,11 +1977,11 @@ in bubble diagrams of spatial topology
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>2120</X>
                                   <Y>290</Y>
-                                  <W>64</W>
+                                  <W>26</W>
                                   <H>40</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2152</X>
+                                  <X>2133</X>
                                   <Y>310</Y>
                                 </item>
                               </items>
@@ -2001,7 +2001,7 @@ in bubble diagrams of spatial topology
                         <item name="MarshGuids" type_name="gh_bool" type_code="1">true</item>
                         <item name="MarshInputs" type_name="gh_bool" type_code="1">true</item>
                         <item name="MarshOutputs" type_name="gh_bool" type_code="1">true</item>
-                        <item name="Text" type_name="gh_string" type_code="10">aW1wb3J0IGlmY29wZW5zaGVsbC5hcGkucm9vdA0KDQojIFNldCBkZWZhdWx0IHZhbHVlcw0KaWYgbmFtZSA9PSBOb25lOg0KICAgIG5hbWUgPSBbIkhvcHBlciBCdWlsZGluZyJdDQoNCiMgSW50aWFsaXplIG1vZGVsDQptb2RlbCA9IGlmY29wZW5zaGVsbC5maWxlLmZyb21fc3RyaW5nKG1vZGVsX2luLnRvX3N0cmluZygpKQ0KDQojIEluaXRpYWxpemUgZW1wdHkgYXJyYXlzDQpidWlsZGluZ19pZCA9IFtdDQoNCiMgQ3JlYXRlIGJ1aWxkaW5ncyAob25lIHBlciBuYW1lKQ0KZm9yIGkgaW4gcmFuZ2UobGVuKG5hbWUpKToNCiAgICBidWlsZGluZyA9IGlmY29wZW5zaGVsbC5hcGkucm9vdC5jcmVhdGVfZW50aXR5KG1vZGVsLCBpZmNfY2xhc3M9IklmY0J1aWxkaW5nIiwgbmFtZT1uYW1lW2ldKQ0KICAgIHJlbGF0aW5nX29iamVjdCA9IG1vZGVsLmJ5X2lkKHJlbGF0aW5nX29iamVjdF9pZCkNCiAgICBpZmNvcGVuc2hlbGwuYXBpLmFnZ3JlZ2F0ZS5hc3NpZ25fb2JqZWN0KG1vZGVsLCByZWxhdGluZ19vYmplY3Q9cmVsYXRpbmdfb2JqZWN0LCBwcm9kdWN0cz1bYnVpbGRpbmddKQ0KDQogICAgYnVpbGRpbmdfaWQuYXBwZW5kKGludChidWlsZGluZy5pZCgpKSkNCg0KIyBTYXZlIG1vZGVsDQptb2RlbF9vdXQgPSBtb2RlbA==</item>
+                        <item name="Text" type_name="gh_string" type_code="10">aW1wb3J0IGlmY29wZW5zaGVsbC5hcGkucm9vdA0KDQojIFNldCBkZWZhdWx0IHZhbHVlcw0KaWYgTiA9PSBOb25lOg0KICAgIE4gPSBbIkhvcHBlciBCdWlsZGluZyJdDQoNCiMgSW50aWFsaXplIG1vZGVsDQptb2RlbCA9IGlmY29wZW5zaGVsbC5maWxlLmZyb21fc3RyaW5nKE1pLnRvX3N0cmluZygpKQ0KDQojIEluaXRpYWxpemUgZW1wdHkgYXJyYXlzDQpCSWQgPSBbXQ0KDQojIENyZWF0ZSBidWlsZGluZ3MgKG9uZSBwZXIgbmFtZSkNCmZvciBpIGluIHJhbmdlKGxlbihOKSk6DQogICAgYnVpbGRpbmcgPSBpZmNvcGVuc2hlbGwuYXBpLnJvb3QuY3JlYXRlX2VudGl0eShtb2RlbCwgaWZjX2NsYXNzPSJJZmNCdWlsZGluZyIsIG5hbWU9TltpXSkNCiAgICByZWxhdGluZ19vYmplY3QgPSBtb2RlbC5ieV9pZChST0lkKQ0KICAgIGlmY29wZW5zaGVsbC5hcGkuYWdncmVnYXRlLmFzc2lnbl9vYmplY3QobW9kZWwsIHJlbGF0aW5nX29iamVjdD1yZWxhdGluZ19vYmplY3QsIHByb2R1Y3RzPVtidWlsZGluZ10pDQoNCiAgICBCSWQuYXBwZW5kKGludChidWlsZGluZy5pZCgpKSkNCg0KIyBTYXZlIG1vZGVsDQpNbyA9IG1vZGVs</item>
                         <item name="Title" type_name="gh_string" type_code="10">IfcBuilding</item>
                       </items>
                       <chunks count="1">
@@ -2016,8 +2016,8 @@ in bubble diagrams of spatial topology
                     <chunk name="ScriptEditor">
                       <items count="1">
                         <item name="StartBounds" type_name="gh_drawing_rectangle" type_code="34">
-                          <X>1216</X>
-                          <Y>90</Y>
+                          <X>3420</X>
+                          <Y>188</Y>
                           <W>984</W>
                           <H>1160</H>
                         </item>
@@ -2028,284 +2028,6 @@ in bubble diagrams of spatial topology
               </chunks>
             </chunk>
             <chunk name="Object" index="6">
-              <items count="2">
-                <item name="GUID" type_name="gh_guid" type_code="9">719467e6-7cf5-4848-99b0-c5dd57e5442c</item>
-                <item name="Name" type_name="gh_string" type_code="10">Python 3 Script</item>
-              </items>
-              <chunks count="1">
-                <chunk name="Container">
-                  <items count="15">
-                    <item name="Description" type_name="gh_string" type_code="10"></item>
-                    <item name="GraftStandardOutputLines" type_name="gh_bool" type_code="1">true</item>
-                    <item name="IconDisplay" type_name="gh_int32" type_code="3">1</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">e2ecd710-e707-4e16-bfe5-d94daf52d2a2</item>
-                    <item name="MarshGuids" type_name="gh_bool" type_code="1">true</item>
-                    <item name="MarshInputs" type_name="gh_bool" type_code="1">true</item>
-                    <item name="MarshOutputs" type_name="gh_bool" type_code="1">true</item>
-                    <item name="Name" type_name="gh_string" type_code="10">Python 3 Script</item>
-                    <item name="NickName" type_name="gh_string" type_code="10">IfcRoad</item>
-                    <item name="ScriptComponentVersion" type_name="gh_int32" type_code="3">3</item>
-                    <item name="Tooltip" type_name="gh_string" type_code="10"></item>
-                    <item name="UsingLibraryInputParam" type_name="gh_bool" type_code="1">false</item>
-                    <item name="UsingScriptInputParam" type_name="gh_bool" type_code="1">false</item>
-                    <item name="UsingScriptOutputParam" type_name="gh_bool" type_code="1">false</item>
-                    <item name="UsingStandardOutputParam" type_name="gh_bool" type_code="1">false</item>
-                  </items>
-                  <chunks count="4">
-                    <chunk name="Attributes">
-                      <items count="2">
-                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>1998</X>
-                          <Y>491</Y>
-                          <W>188</W>
-                          <H>64</H>
-                        </item>
-                        <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>2107</X>
-                          <Y>523</Y>
-                        </item>
-                      </items>
-                    </chunk>
-                    <chunk name="ParameterData">
-                      <items count="7">
-                        <item name="InputCount" type_name="gh_int32" type_code="3">3</item>
-                        <item name="InputId" index="0" type_name="gh_guid" type_code="9">08908df5-fa14-4982-9ab2-1aa0927566aa</item>
-                        <item name="InputId" index="1" type_name="gh_guid" type_code="9">08908df5-fa14-4982-9ab2-1aa0927566aa</item>
-                        <item name="InputId" index="2" type_name="gh_guid" type_code="9">08908df5-fa14-4982-9ab2-1aa0927566aa</item>
-                        <item name="OutputCount" type_name="gh_int32" type_code="3">2</item>
-                        <item name="OutputId" index="0" type_name="gh_guid" type_code="9">08908df5-fa14-4982-9ab2-1aa0927566aa</item>
-                        <item name="OutputId" index="1" type_name="gh_guid" type_code="9">08908df5-fa14-4982-9ab2-1aa0927566aa</item>
-                      </items>
-                      <chunks count="5">
-                        <chunk name="InputParam" index="0">
-                          <items count="12">
-                            <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
-                            <item name="Description" type_name="gh_string" type_code="10">The IfcOpenShell model.</item>
-                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">14b8b1d8-2b4f-4d5d-bd0b-0607acdee076</item>
-                            <item name="Name" type_name="gh_string" type_code="10">Model</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">model_in</item>
-                            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                            <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
-                            <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
-                            <item name="ShowTypeHints" type_name="gh_bool" type_code="1">true</item>
-                            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
-                            <item name="ToolTip" type_name="gh_string" type_code="10">The IfcOpenShell model.</item>
-                            <item name="TypeHintID" type_name="gh_guid" type_code="9">1c282eeb-dd16-439f-94e4-7d92b542fe8b</item>
-                          </items>
-                          <chunks count="2">
-                            <chunk name="Attributes">
-                              <items count="2">
-                                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2000</X>
-                                  <Y>493</Y>
-                                  <W>92</W>
-                                  <H>20</H>
-                                </item>
-                                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2047.5</X>
-                                  <Y>503</Y>
-                                </item>
-                              </items>
-                            </chunk>
-                            <chunk name="ConverterData">
-                              <items count="2">
-                                <item name="AssemblyName" type_name="gh_string" type_code="10">System.Private.CoreLib</item>
-                                <item name="TypeName" type_name="gh_string" type_code="10">System.Object</item>
-                              </items>
-                            </chunk>
-                          </chunks>
-                        </chunk>
-                        <chunk name="InputParam" index="1">
-                          <items count="12">
-                            <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
-                            <item name="Description" type_name="gh_string" type_code="10">The relating object id, usually an Ifc Site.</item>
-                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">b33aab63-0eee-4577-9fd8-d89e3c70d7ee</item>
-                            <item name="Name" type_name="gh_string" type_code="10">Relating Object Id</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">relating_object_id</item>
-                            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                            <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
-                            <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
-                            <item name="ShowTypeHints" type_name="gh_bool" type_code="1">true</item>
-                            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
-                            <item name="ToolTip" type_name="gh_string" type_code="10">The relating object id, usually an Ifc Site.</item>
-                            <item name="TypeHintID" type_name="gh_guid" type_code="9">1c282eeb-dd16-439f-94e4-7d92b542fe8b</item>
-                          </items>
-                          <chunks count="2">
-                            <chunk name="Attributes">
-                              <items count="2">
-                                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2000</X>
-                                  <Y>513</Y>
-                                  <W>92</W>
-                                  <H>20</H>
-                                </item>
-                                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2047.5</X>
-                                  <Y>523</Y>
-                                </item>
-                              </items>
-                            </chunk>
-                            <chunk name="ConverterData">
-                              <items count="2">
-                                <item name="AssemblyName" type_name="gh_string" type_code="10">System.Private.CoreLib</item>
-                                <item name="TypeName" type_name="gh_string" type_code="10">System.Object</item>
-                              </items>
-                            </chunk>
-                          </chunks>
-                        </chunk>
-                        <chunk name="InputParam" index="2">
-                          <items count="13">
-                            <item name="Access" type_name="gh_int32" type_code="3">1</item>
-                            <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
-                            <item name="Description" type_name="gh_string" type_code="10">A list of road names.
-
-(Default is "Hopper Road")</item>
-                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">51c2d2b3-8f7c-4b3a-82b0-b3bdaad24e9e</item>
-                            <item name="Name" type_name="gh_string" type_code="10">Name</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">name</item>
-                            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
-                            <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">1</item>
-                            <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
-                            <item name="ShowTypeHints" type_name="gh_bool" type_code="1">true</item>
-                            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
-                            <item name="ToolTip" type_name="gh_string" type_code="10">A list of road names.
-
-(Default is "Hopper Road")</item>
-                            <item name="TypeHintID" type_name="gh_guid" type_code="9">1c282eeb-dd16-439f-94e4-7d92b542fe8b</item>
-                          </items>
-                          <chunks count="2">
-                            <chunk name="Attributes">
-                              <items count="2">
-                                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2000</X>
-                                  <Y>533</Y>
-                                  <W>92</W>
-                                  <H>20</H>
-                                </item>
-                                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2047.5</X>
-                                  <Y>543</Y>
-                                </item>
-                              </items>
-                            </chunk>
-                            <chunk name="ConverterData">
-                              <items count="2">
-                                <item name="AssemblyName" type_name="gh_string" type_code="10">System.Private.CoreLib</item>
-                                <item name="TypeName" type_name="gh_string" type_code="10">System.Object</item>
-                              </items>
-                            </chunk>
-                          </chunks>
-                        </chunk>
-                        <chunk name="OutputParam" index="0">
-                          <items count="12">
-                            <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">false</item>
-                            <item name="Description" type_name="gh_string" type_code="10">The IfcOpenShell model.</item>
-                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">ffa127fb-f191-42e9-b4b7-2ebf3e8d5f3f</item>
-                            <item name="Name" type_name="gh_string" type_code="10">Model</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">model_out</item>
-                            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                            <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
-                            <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
-                            <item name="ShowTypeHints" type_name="gh_bool" type_code="1">true</item>
-                            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
-                            <item name="ToolTip" type_name="gh_string" type_code="10">The IfcOpenShell model.</item>
-                            <item name="TypeHintID" type_name="gh_guid" type_code="9">1c282eeb-dd16-439f-94e4-7d92b542fe8b</item>
-                          </items>
-                          <chunks count="2">
-                            <chunk name="Attributes">
-                              <items count="2">
-                                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2122</X>
-                                  <Y>493</Y>
-                                  <W>62</W>
-                                  <H>30</H>
-                                </item>
-                                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2153</X>
-                                  <Y>508</Y>
-                                </item>
-                              </items>
-                            </chunk>
-                            <chunk name="ConverterData">
-                              <items count="2">
-                                <item name="AssemblyName" type_name="gh_string" type_code="10">System.Private.CoreLib</item>
-                                <item name="TypeName" type_name="gh_string" type_code="10">System.Object</item>
-                              </items>
-                            </chunk>
-                          </chunks>
-                        </chunk>
-                        <chunk name="OutputParam" index="1">
-                          <items count="12">
-                            <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">false</item>
-                            <item name="Description" type_name="gh_string" type_code="10">The IFC road Id.</item>
-                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">3c089206-d92e-41d7-8a71-56f37ae1fdfd</item>
-                            <item name="Name" type_name="gh_string" type_code="10">Road Id</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">road_id</item>
-                            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                            <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
-                            <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
-                            <item name="ShowTypeHints" type_name="gh_bool" type_code="1">true</item>
-                            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
-                            <item name="ToolTip" type_name="gh_string" type_code="10">The IFC road Id.</item>
-                            <item name="TypeHintID" type_name="gh_guid" type_code="9">1c282eeb-dd16-439f-94e4-7d92b542fe8b</item>
-                          </items>
-                          <chunks count="2">
-                            <chunk name="Attributes">
-                              <items count="2">
-                                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2122</X>
-                                  <Y>523</Y>
-                                  <W>62</W>
-                                  <H>30</H>
-                                </item>
-                                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2153</X>
-                                  <Y>538</Y>
-                                </item>
-                              </items>
-                            </chunk>
-                            <chunk name="ConverterData">
-                              <items count="2">
-                                <item name="AssemblyName" type_name="gh_string" type_code="10">System.Private.CoreLib</item>
-                                <item name="TypeName" type_name="gh_string" type_code="10">System.Object</item>
-                              </items>
-                            </chunk>
-                          </chunks>
-                        </chunk>
-                      </chunks>
-                    </chunk>
-                    <chunk name="Script">
-                      <items count="5">
-                        <item name="MarshGuids" type_name="gh_bool" type_code="1">true</item>
-                        <item name="MarshInputs" type_name="gh_bool" type_code="1">true</item>
-                        <item name="MarshOutputs" type_name="gh_bool" type_code="1">true</item>
-                        <item name="Text" type_name="gh_string" type_code="10">aW1wb3J0IGlmY29wZW5zaGVsbC5hcGkucm9vdA0KaW1wb3J0IEdyYXNzaG9wcGVyLktlcm5lbCBhcyBnaA0KDQojIFNob3J0Y3V0IGFsaWFzZXMgZm9yIEdyYXNzaG9wcGVyIHJ1bnRpbWUgbWVzc2FnZSBsZXZlbHMNCmUgPSBnaC5HSF9SdW50aW1lTWVzc2FnZUxldmVsLkVycm9yDQp3ID0gZ2guR0hfUnVudGltZU1lc3NhZ2VMZXZlbC5XYXJuaW5nDQoNCiMgU2V0IGRlZmF1bHQgdmFsdWVzDQppZiBuYW1lID09IE5vbmU6DQogICAgbmFtZSA9IFsiSG9wcGVyIFJvYWQiXQ0KDQojIEluaXRpYWxpemUgbW9kZWwNCm1vZGVsID0gaWZjb3BlbnNoZWxsLmZpbGUuZnJvbV9zdHJpbmcobW9kZWxfaW4udG9fc3RyaW5nKCkpDQoNCiMgSW5pdGlhbGl6ZSBlbXB0eSBhcnJheXMNCnJvYWRfaWQgPSBbXQ0KDQojIElmIG1vZGVsIHNjaGVtYSBpcyBJRkMyWDMgb3IgSUY0LCByZXBsYWNlIElmY1JvYWQgd2l0aCBJZmNCdWlsZGluZyBhbmQgd2FybiB1c2VyDQppZmNfY2xhc3M9IklmY1JvYWQiDQppZiAobW9kZWwuc2NoZW1hIGluIFsiSUZDMlgzIiwgIklGQzQiXSk6DQogICAgZ2hlbnYuQ29tcG9uZW50LkFkZFJ1bnRpbWVNZXNzYWdlKHcsIGYiXCJJZmNSb2FkXCIgaXMgbm90IHN1cHBvcnRlZCBpbiBzY2hlbWEge21vZGVsLnNjaGVtYX0sIGZhbGxpbmcgYmFjayB0byBcIklmY0J1aWxkaW5nXCIiKQ0KICAgIGlmY19jbGFzcz0iSWZjQnVpbGRpbmciDQoNCiMgQ3JlYXRlIHJvYWRzIChvbmUgcGVyIG5hbWUpDQpmb3IgaSBpbiByYW5nZShsZW4obmFtZSkpOg0KICAgIHJvYWQgPSBpZmNvcGVuc2hlbGwuYXBpLnJvb3QuY3JlYXRlX2VudGl0eShtb2RlbCwgaWZjX2NsYXNzPWlmY19jbGFzcywgbmFtZT1uYW1lW2ldKQ0KICAgIHJlbGF0aW5nX29iamVjdCA9IG1vZGVsLmJ5X2lkKHJlbGF0aW5nX29iamVjdF9pZCkNCiAgICBpZmNvcGVuc2hlbGwuYXBpLmFnZ3JlZ2F0ZS5hc3NpZ25fb2JqZWN0KG1vZGVsLCByZWxhdGluZ19vYmplY3Q9cmVsYXRpbmdfb2JqZWN0LCBwcm9kdWN0cz1bcm9hZF0pDQoNCiAgICByb2FkX2lkLmFwcGVuZChpbnQocm9hZC5pZCgpKSkNCg0KIyBTYXZlIG1vZGVsDQptb2RlbF9vdXQgPSBtb2RlbA==</item>
-                        <item name="Title" type_name="gh_string" type_code="10">IfcRoad</item>
-                      </items>
-                      <chunks count="1">
-                        <chunk name="LanguageSpec">
-                          <items count="2">
-                            <item name="Taxon" type_name="gh_string" type_code="10">*.*.python</item>
-                            <item name="Version" type_name="gh_string" type_code="10">3.*</item>
-                          </items>
-                        </chunk>
-                      </chunks>
-                    </chunk>
-                    <chunk name="ScriptEditor">
-                      <items count="1">
-                        <item name="StartBounds" type_name="gh_drawing_rectangle" type_code="34">
-                          <X>1216</X>
-                          <Y>90</Y>
-                          <W>984</W>
-                          <H>1160</H>
-                        </item>
-                      </items>
-                    </chunk>
-                  </chunks>
-                </chunk>
-              </chunks>
-            </chunk>
-            <chunk name="Object" index="7">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">7f5c6c55-f846-4a08-9c9a-cfdc285cc6fe</item>
                 <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
@@ -2358,7 +2080,7 @@ in bubble diagrams of spatial topology
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="8">
+            <chunk name="Object" index="7">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">7f5c6c55-f846-4a08-9c9a-cfdc285cc6fe</item>
                 <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
@@ -2411,7 +2133,7 @@ in bubble diagrams of spatial topology
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="9">
+            <chunk name="Object" index="8">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">7f5c6c55-f846-4a08-9c9a-cfdc285cc6fe</item>
                 <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
@@ -2464,7 +2186,7 @@ in bubble diagrams of spatial topology
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="10">
+            <chunk name="Object" index="9">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">7f5c6c55-f846-4a08-9c9a-cfdc285cc6fe</item>
                 <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
@@ -2517,7 +2239,7 @@ in bubble diagrams of spatial topology
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="11">
+            <chunk name="Object" index="10">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">7f5c6c55-f846-4a08-9c9a-cfdc285cc6fe</item>
                 <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
@@ -2570,7 +2292,7 @@ in bubble diagrams of spatial topology
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="12">
+            <chunk name="Object" index="11">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">c552a431-af5b-46a9-a8a4-0fcbc27ef596</item>
                 <item name="Name" type_name="gh_string" type_code="10">Group</item>
@@ -2603,7 +2325,7 @@ in bubble diagrams of spatial topology
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="13">
+            <chunk name="Object" index="12">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">c552a431-af5b-46a9-a8a4-0fcbc27ef596</item>
                 <item name="Name" type_name="gh_string" type_code="10">Group</item>
@@ -2639,7 +2361,7 @@ in bubble diagrams of spatial topology
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="14">
+            <chunk name="Object" index="13">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">7f5c6c55-f846-4a08-9c9a-cfdc285cc6fe</item>
                 <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
@@ -2692,7 +2414,7 @@ in bubble diagrams of spatial topology
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="15">
+            <chunk name="Object" index="14">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">c552a431-af5b-46a9-a8a4-0fcbc27ef596</item>
                 <item name="Name" type_name="gh_string" type_code="10">Group</item>
@@ -2727,7 +2449,7 @@ in bubble diagrams of spatial topology
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="16">
+            <chunk name="Object" index="15">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">719467e6-7cf5-4848-99b0-c5dd57e5442c</item>
                 <item name="Name" type_name="gh_string" type_code="10">Python 3 Script</item>
@@ -2755,9 +2477,9 @@ in bubble diagrams of spatial topology
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>1608</X>
+                          <X>1653</X>
                           <Y>491</Y>
-                          <W>167</W>
+                          <W>86</W>
                           <H>124</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
@@ -2786,7 +2508,7 @@ in bubble diagrams of spatial topology
                             <item name="Description" type_name="gh_string" type_code="10">The IfcOpenShell model.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">9d5a9762-660f-42a1-943d-44e3e188e6c2</item>
                             <item name="Name" type_name="gh_string" type_code="10">Model</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">model_in</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">Mi</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -2799,13 +2521,13 @@ in bubble diagrams of spatial topology
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>1610</X>
+                                  <X>1655</X>
                                   <Y>493</Y>
-                                  <W>71</W>
+                                  <W>26</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>1647</X>
+                                  <X>1669.5</X>
                                   <Y>503</Y>
                                 </item>
                               </items>
@@ -2826,7 +2548,7 @@ in bubble diagrams of spatial topology
 (Default is 4326)</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">19ad325b-0458-49e4-9c23-b4c474606c71</item>
                             <item name="Name" type_name="gh_string" type_code="10">Projected CRS</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">projected_crs</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">CRS</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -2841,13 +2563,13 @@ in bubble diagrams of spatial topology
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>1610</X>
+                                  <X>1655</X>
                                   <Y>513</Y>
-                                  <W>71</W>
+                                  <W>26</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>1647</X>
+                                  <X>1669.5</X>
                                   <Y>523</Y>
                                 </item>
                               </items>
@@ -2868,7 +2590,7 @@ in bubble diagrams of spatial topology
 (Default is 0.0)</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">324e796a-ef65-49ce-b29c-d5fa340a631b</item>
                             <item name="Name" type_name="gh_string" type_code="10">Eastings</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">eastings</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">Es</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -2883,13 +2605,13 @@ in bubble diagrams of spatial topology
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>1610</X>
+                                  <X>1655</X>
                                   <Y>533</Y>
-                                  <W>71</W>
+                                  <W>26</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>1647</X>
+                                  <X>1669.5</X>
                                   <Y>543</Y>
                                 </item>
                               </items>
@@ -2910,7 +2632,7 @@ in bubble diagrams of spatial topology
 (Default is 0.0)</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">7d150781-0312-450b-9473-972a9cd33af3</item>
                             <item name="Name" type_name="gh_string" type_code="10">Northings</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">northings</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">Ns</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -2925,13 +2647,13 @@ in bubble diagrams of spatial topology
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>1610</X>
+                                  <X>1655</X>
                                   <Y>553</Y>
-                                  <W>71</W>
+                                  <W>26</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>1647</X>
+                                  <X>1669.5</X>
                                   <Y>563</Y>
                                 </item>
                               </items>
@@ -2952,7 +2674,7 @@ in bubble diagrams of spatial topology
 (Default is 0.0)</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">fe42a0ec-db47-49b3-8654-ec6789fcd7ea</item>
                             <item name="Name" type_name="gh_string" type_code="10">North Angle</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">north_angle</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">Na</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -2967,13 +2689,13 @@ in bubble diagrams of spatial topology
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>1610</X>
+                                  <X>1655</X>
                                   <Y>573</Y>
-                                  <W>71</W>
+                                  <W>26</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>1647</X>
+                                  <X>1669.5</X>
                                   <Y>583</Y>
                                 </item>
                               </items>
@@ -2994,7 +2716,7 @@ in bubble diagrams of spatial topology
 (Dafault is 1.0)</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">ca1ba7dd-26ba-451f-a414-1862659c565b</item>
                             <item name="Name" type_name="gh_string" type_code="10">Origin Scale</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">origin_scale</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">Os</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -3009,13 +2731,13 @@ in bubble diagrams of spatial topology
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>1610</X>
+                                  <X>1655</X>
                                   <Y>593</Y>
-                                  <W>71</W>
+                                  <W>26</W>
                                   <H>20</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>1647</X>
+                                  <X>1669.5</X>
                                   <Y>603</Y>
                                 </item>
                               </items>
@@ -3034,7 +2756,7 @@ in bubble diagrams of spatial topology
                             <item name="Description" type_name="gh_string" type_code="10">The IfcOpenShell model.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">1de5ad64-9412-4f39-bc11-220b9846f4d3</item>
                             <item name="Name" type_name="gh_string" type_code="10">Model</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">model_out</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">Mo</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -3049,11 +2771,11 @@ in bubble diagrams of spatial topology
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>1711</X>
                                   <Y>493</Y>
-                                  <W>62</W>
+                                  <W>26</W>
                                   <H>60</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>1742</X>
+                                  <X>1724</X>
                                   <Y>523</Y>
                                 </item>
                               </items>
@@ -3072,7 +2794,7 @@ in bubble diagrams of spatial topology
                             <item name="Description" type_name="gh_string" type_code="10">Georeferencing is assigned to a context, this is the Id of that context.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">3d097d4e-45f3-4bdf-a06b-ddf681799fdf</item>
                             <item name="Name" type_name="gh_string" type_code="10">Context Id</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">context_id</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">CId</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -3087,11 +2809,11 @@ in bubble diagrams of spatial topology
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>1711</X>
                                   <Y>553</Y>
-                                  <W>62</W>
+                                  <W>26</W>
                                   <H>60</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>1742</X>
+                                  <X>1724</X>
                                   <Y>583</Y>
                                 </item>
                               </items>
@@ -3111,7 +2833,7 @@ in bubble diagrams of spatial topology
                         <item name="MarshGuids" type_name="gh_bool" type_code="1">true</item>
                         <item name="MarshInputs" type_name="gh_bool" type_code="1">true</item>
                         <item name="MarshOutputs" type_name="gh_bool" type_code="1">true</item>
-                        <item name="Text" type_name="gh_string" type_code="10">aW1wb3J0IGlmY29wZW5zaGVsbC5hcGkucm9vdA0KaW1wb3J0IGlmY29wZW5zaGVsbC5hcGkuZ2VvcmVmZXJlbmNlDQppbXBvcnQgbWF0aA0KaW1wb3J0IEdyYXNzaG9wcGVyLktlcm5lbCBhcyBnaA0KDQojIFNob3J0Y3V0IGFsaWFzZXMgZm9yIEdyYXNzaG9wcGVyIHJ1bnRpbWUgbWVzc2FnZSBsZXZlbHMNCmUgPSBnaC5HSF9SdW50aW1lTWVzc2FnZUxldmVsLkVycm9yDQp3ID0gZ2guR0hfUnVudGltZU1lc3NhZ2VMZXZlbC5XYXJuaW5nDQoNCiMgU2V0IGRlZmF1bHQgdmFsdWVzDQppZiBwcm9qZWN0ZWRfY3JzID09IE5vbmU6DQogICAgcHJvamVjdGVkX2NycyA9IDQzMjYNCg0KaWYgZWFzdGluZ3MgPT0gTm9uZToNCiAgICBlYXN0aW5ncyA9IDAuMA0KDQppZiBub3J0aGluZ3MgPT0gTm9uZToNCiAgICBub3J0aGluZ3MgPSAwLjANCg0KaWYgbm9ydGhfYW5nbGUgPT0gTm9uZToNCiAgICBub3J0aF9hbmdsZSA9IDAuMA0KDQppZiBvcmlnaW5fc2NhbGUgPT0gTm9uZToNCiAgICBvcmlnaW5fc2NhbGUgPSAxLjANCg0KIyBJbml0aWFsaXplIG1vZGVsDQptb2RlbCA9IGlmY29wZW5zaGVsbC5maWxlLmZyb21fc3RyaW5nKG1vZGVsX2luLnRvX3N0cmluZygpKQ0KDQojIFZhbGlkYXRlIGNvbnRleHQNCiMgR2VvcmVmZXJlbmNpZyBpcyBhc3NpZ25lZCB0byB0aGUgZmlyc3QgY29udGV4dCBvZiB0eXBlICJNb2RlbCIgZm91bmQgaW4gdGhlIG1vZGVsDQoNCiMgaWYgdGhlcmUgaXMgYXQgbGVhc3Qgb25lLCBidXQgaXQncyBub3Qgb2YgdHlwZSAiTW9kZWwiLCBjcmVhdGUgaXQgYW5kIHdhcm4gdGhlIHVzZXINCmlmIChtb2RlbC5ieV90eXBlKCJJZmNHZW9tZXRyaWNSZXByZXNlbnRhdGlvbkNvbnRleHQiLCBpbmNsdWRlX3N1YnR5cGVzPUZhbHNlKSk6DQogICAgY29udGV4dF9saXN0ID0gbW9kZWwuYnlfdHlwZSgiSWZjR2VvbWV0cmljUmVwcmVzZW50YXRpb25Db250ZXh0IiwgaW5jbHVkZV9zdWJ0eXBlcz1GYWxzZSkNCg0KICAgIGZvciBjb250ZXh0IGluIGNvbnRleHRfbGlzdDoNCiAgICAgICAgaWYgKGNvbnRleHQuQ29udGV4dFR5cGUgIT0gIk1vZGVsIik6DQogICAgICAgICAgICBjb250ZXh0ID0gaWZjb3BlbnNoZWxsLmFwaS5jb250ZXh0LmFkZF9jb250ZXh0KG1vZGVsLCBjb250ZXh0X3R5cGU9Ik1vZGVsIikNCiAgICANCiAgICAgICAgICAgIGdoZW52LkNvbXBvbmVudC5BZGRSdW50aW1lTWVzc2FnZSh3LCBmIntsZW4oY29udGV4dF9saXN0KX0gY29udGV4dCBoYXZlIGJlZW4gZm91bmQsIGJ1dCBub25lIG9mIHR5cGUgXCJNb2RlbFwiLiBBIG5ldyBvbmUgaXMgYWRkZWQsIGJlIGF3YXJlIHRoYXQgc29tZSBvYmplY3RzIGFyZSBwcm9iYWJseSBhc3NvY2lhdGVkIHRvIGRpZmZlcmVudCBjb250ZXh0cy4iKQ0KICAgICAgICBlbHNlOg0KICAgICAgICAgICAgaWYgKGxlbihjb250ZXh0X2xpc3QpID4gMSk6DQogICAgICAgICAgICAgICAgZ2hlbnYuQ29tcG9uZW50LkFkZFJ1bnRpbWVNZXNzYWdlKHcsIGYie2xlbihjb250ZXh0X2xpc3QpfSBjb250ZXh0IGhhdmUgYmVlbiBmb3VuZC4gTm90ZSB0aGF0IGdlb3JlZmVyZW5jaW5nIHdpbGwgYmUgYXNzaWduZWQgdG8gdGhlIGZpcnN0IG9uZSBvbmx5LiIpDQoNCiAgICAgICAgICAgICAgICBjb250ZXh0ID0gY29udGV4dF9saXN0WzBdDQoNCiMgaWYgdGhlcmUgaXNuJ3Qgb25lLCBjcmVhdGUgaXQgYW5kIHdhcm4gdGhlIHVzZXINCmVsc2U6DQogICAgY29udGV4dCA9IGlmY29wZW5zaGVsbC5hcGkuY29udGV4dC5hZGRfY29udGV4dChtb2RlbCwgY29udGV4dF90eXBlPSJNb2RlbCIpDQoNCiAgICBnaGVudi5Db21wb25lbnQuQWRkUnVudGltZU1lc3NhZ2UodywgIk5vIGNvbnRleHQgd2FzIGZvdW5kLiBBIG5ldyBvbmUgaXMgYWRkZWQsIGJlIGF3YXJlIHRoYXQgc29tZSBvYmplY3RzIGFyZSBwcm9iYWJseSBhc3NvY2lhdGVkIHRvIGRpZmZlcmVudCBjb250ZXh0cy4iKQ0KDQpjb250ZXh0X2lkID0gY29udGV4dC5pZCgpDQoNCiMgQWRkIGdlb3JlZmVyZW5jaW5nDQppZmNvcGVuc2hlbGwuYXBpLmdlb3JlZmVyZW5jZS5hZGRfZ2VvcmVmZXJlbmNpbmcobW9kZWwpDQoNCmlmY29wZW5zaGVsbC5hcGkuZ2VvcmVmZXJlbmNlLmVkaXRfZ2VvcmVmZXJlbmNpbmcobW9kZWwsDQogICAgcHJvamVjdGVkX2Nycz17Ik5hbWUiOiAiRVBTRzoiICsgc3RyKHByb2plY3RlZF9jcnMpfSwNCiAgICBjb29yZGluYXRlX29wZXJhdGlvbj17DQogICAgICAgICJFYXN0aW5ncyI6IGVhc3RpbmdzLCAjIEZhbHNlIG9yaWdpbiAoaG9yaXpvbnRhbCkNCiAgICAgICAgIk5vcnRoaW5ncyI6IG5vcnRoaW5ncywgIyBGYWxzZSBvcmlnaW4gKHZlcnRpY2FsKQ0KICAgICAgICAiWEF4aXNBYnNjaXNzYSI6IG1hdGguY29zKG1hdGgucmFkaWFucyhub3J0aF9hbmdsZSkpLCAjIEhvcml6b250YWwgY29tcG9uZW50IG9mIHByb2plY3Qgbm9ydGggdmVjdG9yDQogICAgICAgICJYQXhpc09yZGluYXRlIjogbWF0aC5zaW4obWF0aC5yYWRpYW5zKG5vcnRoX2FuZ2xlKSksICMgVmVydGljYWwgY29tcG9uZW50IG9mIHByb2plY3Qgbm9ydGggdmVjdG9yDQogICAgICAgICJTY2FsZSI6IG9yaWdpbl9zY2FsZSwgIyBTY2FsZSBmYWN0b3IgYXQgb3JpZ2luDQogICAgfSkNCg0KIyBTYXZlIG1vZGVsDQptb2RlbF9vdXQgPSBtb2RlbA==</item>
+                        <item name="Text" type_name="gh_string" type_code="10">aW1wb3J0IGlmY29wZW5zaGVsbC5hcGkucm9vdA0KaW1wb3J0IGlmY29wZW5zaGVsbC5hcGkuZ2VvcmVmZXJlbmNlDQppbXBvcnQgbWF0aA0KaW1wb3J0IEdyYXNzaG9wcGVyLktlcm5lbCBhcyBnaA0KDQojIFNob3J0Y3V0IGFsaWFzZXMgZm9yIEdyYXNzaG9wcGVyIHJ1bnRpbWUgbWVzc2FnZSBsZXZlbHMNCmUgPSBnaC5HSF9SdW50aW1lTWVzc2FnZUxldmVsLkVycm9yDQp3ID0gZ2guR0hfUnVudGltZU1lc3NhZ2VMZXZlbC5XYXJuaW5nDQoNCiMgU2V0IGRlZmF1bHQgdmFsdWVzDQppZiBDUlMgPT0gTm9uZToNCiAgICBDUlMgPSA0MzI2DQoNCmlmIEVzID09IE5vbmU6DQogICAgRXMgPSAwLjANCg0KaWYgTnMgPT0gTm9uZToNCiAgICBOcyA9IDAuMA0KDQppZiBOYSA9PSBOb25lOg0KICAgIE5hID0gMC4wDQoNCmlmIE9zID09IE5vbmU6DQogICAgT3MgPSAxLjANCg0KIyBJbml0aWFsaXplIG1vZGVsDQptb2RlbCA9IGlmY29wZW5zaGVsbC5maWxlLmZyb21fc3RyaW5nKE1pLnRvX3N0cmluZygpKQ0KDQojIFZhbGlkYXRlIGNvbnRleHQNCiMgR2VvcmVmZXJlbmNpZyBpcyBhc3NpZ25lZCB0byB0aGUgZmlyc3QgY29udGV4dCBvZiB0eXBlICJNb2RlbCIgZm91bmQgaW4gdGhlIG1vZGVsDQoNCiMgaWYgdGhlcmUgaXMgYXQgbGVhc3Qgb25lLCBidXQgaXQncyBub3Qgb2YgdHlwZSAiTW9kZWwiLCBjcmVhdGUgaXQgYW5kIHdhcm4gdGhlIHVzZXINCmlmIChtb2RlbC5ieV90eXBlKCJJZmNHZW9tZXRyaWNSZXByZXNlbnRhdGlvbkNvbnRleHQiLCBpbmNsdWRlX3N1YnR5cGVzPUZhbHNlKSk6DQogICAgY29udGV4dF9saXN0ID0gbW9kZWwuYnlfdHlwZSgiSWZjR2VvbWV0cmljUmVwcmVzZW50YXRpb25Db250ZXh0IiwgaW5jbHVkZV9zdWJ0eXBlcz1GYWxzZSkNCg0KICAgIGZvciBjb250ZXh0IGluIGNvbnRleHRfbGlzdDoNCiAgICAgICAgaWYgKGNvbnRleHQuQ29udGV4dFR5cGUgIT0gIk1vZGVsIik6DQogICAgICAgICAgICBjb250ZXh0ID0gaWZjb3BlbnNoZWxsLmFwaS5jb250ZXh0LmFkZF9jb250ZXh0KG1vZGVsLCBjb250ZXh0X3R5cGU9Ik1vZGVsIikNCiAgICANCiAgICAgICAgICAgIGdoZW52LkNvbXBvbmVudC5BZGRSdW50aW1lTWVzc2FnZSh3LCBmIntsZW4oY29udGV4dF9saXN0KX0gY29udGV4dCBoYXZlIGJlZW4gZm91bmQsIGJ1dCBub25lIG9mIHR5cGUgXCJNb2RlbFwiLiBBIG5ldyBvbmUgaXMgYWRkZWQsIGJlIGF3YXJlIHRoYXQgc29tZSBvYmplY3RzIGFyZSBwcm9iYWJseSBhc3NvY2lhdGVkIHRvIGRpZmZlcmVudCBjb250ZXh0cy4iKQ0KICAgICAgICBlbHNlOg0KICAgICAgICAgICAgaWYgKGxlbihjb250ZXh0X2xpc3QpID4gMSk6DQogICAgICAgICAgICAgICAgZ2hlbnYuQ29tcG9uZW50LkFkZFJ1bnRpbWVNZXNzYWdlKHcsIGYie2xlbihjb250ZXh0X2xpc3QpfSBjb250ZXh0IGhhdmUgYmVlbiBmb3VuZC4gTm90ZSB0aGF0IGdlb3JlZmVyZW5jaW5nIHdpbGwgYmUgYXNzaWduZWQgdG8gdGhlIGZpcnN0IG9uZSBvbmx5LiIpDQoNCiAgICAgICAgICAgICAgICBjb250ZXh0ID0gY29udGV4dF9saXN0WzBdDQoNCiMgaWYgdGhlcmUgaXNuJ3Qgb25lLCBjcmVhdGUgaXQgYW5kIHdhcm4gdGhlIHVzZXINCmVsc2U6DQogICAgY29udGV4dCA9IGlmY29wZW5zaGVsbC5hcGkuY29udGV4dC5hZGRfY29udGV4dChtb2RlbCwgY29udGV4dF90eXBlPSJNb2RlbCIpDQoNCiAgICBnaGVudi5Db21wb25lbnQuQWRkUnVudGltZU1lc3NhZ2UodywgIk5vIGNvbnRleHQgd2FzIGZvdW5kLiBBIG5ldyBvbmUgaXMgYWRkZWQsIGJlIGF3YXJlIHRoYXQgc29tZSBvYmplY3RzIGFyZSBwcm9iYWJseSBhc3NvY2lhdGVkIHRvIGRpZmZlcmVudCBjb250ZXh0cy4iKQ0KDQpDSWQgPSBjb250ZXh0LmlkKCkNCg0KIyBBZGQgZ2VvcmVmZXJlbmNpbmcNCmlmY29wZW5zaGVsbC5hcGkuZ2VvcmVmZXJlbmNlLmFkZF9nZW9yZWZlcmVuY2luZyhtb2RlbCkNCg0KaWZjb3BlbnNoZWxsLmFwaS5nZW9yZWZlcmVuY2UuZWRpdF9nZW9yZWZlcmVuY2luZyhtb2RlbCwNCiAgICBwcm9qZWN0ZWRfY3JzPXsiTmFtZSI6ICJFUFNHOiIgKyBzdHIoQ1JTKX0sDQogICAgY29vcmRpbmF0ZV9vcGVyYXRpb249ew0KICAgICAgICAiRWFzdGluZ3MiOiBFcywgIyBGYWxzZSBvcmlnaW4gKGhvcml6b250YWwpDQogICAgICAgICJOb3J0aGluZ3MiOiBOcywgIyBGYWxzZSBvcmlnaW4gKHZlcnRpY2FsKQ0KICAgICAgICAiWEF4aXNBYnNjaXNzYSI6IG1hdGguY29zKG1hdGgucmFkaWFucyhOYSkpLCAjIEhvcml6b250YWwgY29tcG9uZW50IG9mIHByb2plY3Qgbm9ydGggdmVjdG9yDQogICAgICAgICJYQXhpc09yZGluYXRlIjogbWF0aC5zaW4obWF0aC5yYWRpYW5zKE5hKSksICMgVmVydGljYWwgY29tcG9uZW50IG9mIHByb2plY3Qgbm9ydGggdmVjdG9yDQogICAgICAgICJTY2FsZSI6IE9zLCAjIFNjYWxlIGZhY3RvciBhdCBvcmlnaW4NCiAgICB9KQ0KDQojIFNhdmUgbW9kZWwNCk1vID0gbW9kZWw=</item>
                         <item name="Title" type_name="gh_string" type_code="10">IfcGeoreference</item>
                       </items>
                       <chunks count="1">
@@ -3126,10 +2848,10 @@ in bubble diagrams of spatial topology
                     <chunk name="ScriptEditor">
                       <items count="1">
                         <item name="StartBounds" type_name="gh_drawing_rectangle" type_code="34">
-                          <X>1120</X>
-                          <Y>268</Y>
+                          <X>2880</X>
+                          <Y>123</Y>
                           <W>1288</W>
-                          <H>1032</H>
+                          <H>1082</H>
                         </item>
                       </items>
                     </chunk>
@@ -3137,7 +2859,7 @@ in bubble diagrams of spatial topology
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="17">
+            <chunk name="Object" index="16">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">7f5c6c55-f846-4a08-9c9a-cfdc285cc6fe</item>
                 <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
@@ -3190,7 +2912,7 @@ in bubble diagrams of spatial topology
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="18">
+            <chunk name="Object" index="17">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">719467e6-7cf5-4848-99b0-c5dd57e5442c</item>
                 <item name="Name" type_name="gh_string" type_code="10">Python 3 Script</item>
@@ -3218,9 +2940,9 @@ in bubble diagrams of spatial topology
                     <chunk name="Attributes">
                       <items count="2">
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>2405</X>
+                          <X>2466</X>
                           <Y>248</Y>
-                          <W>188</W>
+                          <W>94</W>
                           <H>126</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
@@ -3246,7 +2968,7 @@ in bubble diagrams of spatial topology
                             <item name="Description" type_name="gh_string" type_code="10">The IfcOpenShell model.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">51b1abab-2395-484c-bbd7-9496307ca108</item>
                             <item name="Name" type_name="gh_string" type_code="10">Model</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">model_in</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">Mi</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -3259,13 +2981,13 @@ in bubble diagrams of spatial topology
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2407</X>
+                                  <X>2468</X>
                                   <Y>250</Y>
-                                  <W>92</W>
+                                  <W>31</W>
                                   <H>40</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2454.5</X>
+                                  <X>2485</X>
                                   <Y>270.33334</Y>
                                 </item>
                               </items>
@@ -3284,7 +3006,7 @@ in bubble diagrams of spatial topology
                             <item name="Description" type_name="gh_string" type_code="10">The relating object id, usually an Ifc Building.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">373784df-4e53-4b0e-9fc1-41f08b065411</item>
                             <item name="Name" type_name="gh_string" type_code="10">Relating Object Id</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">relating_object_id</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">ROId</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -3297,13 +3019,13 @@ in bubble diagrams of spatial topology
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2407</X>
+                                  <X>2468</X>
                                   <Y>290</Y>
-                                  <W>92</W>
+                                  <W>31</W>
                                   <H>41</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2454.5</X>
+                                  <X>2485</X>
                                   <Y>311</Y>
                                 </item>
                               </items>
@@ -3325,7 +3047,7 @@ in bubble diagrams of spatial topology
 (Default is "Hopper Storey")</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">d9caaea1-4f18-4f14-a53f-b55d5cecbf7b</item>
                             <item name="Name" type_name="gh_string" type_code="10">Name</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">name</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">N</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">true</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">1</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -3340,13 +3062,13 @@ in bubble diagrams of spatial topology
                             <chunk name="Attributes">
                               <items count="2">
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2407</X>
+                                  <X>2468</X>
                                   <Y>331</Y>
-                                  <W>92</W>
+                                  <W>31</W>
                                   <H>41</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2454.5</X>
+                                  <X>2485</X>
                                   <Y>351.6667</Y>
                                 </item>
                               </items>
@@ -3365,7 +3087,7 @@ in bubble diagrams of spatial topology
                             <item name="Description" type_name="gh_string" type_code="10">The IfcOpenShell model.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">8c86db67-2a55-4c32-9fd3-9e6b30df3028</item>
                             <item name="Name" type_name="gh_string" type_code="10">Model</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">model_out</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">Mo</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -3380,11 +3102,11 @@ in bubble diagrams of spatial topology
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>2529</X>
                                   <Y>250</Y>
-                                  <W>62</W>
+                                  <W>29</W>
                                   <H>61</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2560</X>
+                                  <X>2543.5</X>
                                   <Y>280.5</Y>
                                 </item>
                               </items>
@@ -3403,7 +3125,7 @@ in bubble diagrams of spatial topology
                             <item name="Description" type_name="gh_string" type_code="10">The IFC storey Id.</item>
                             <item name="InstanceGuid" type_name="gh_guid" type_code="9">084ad72c-985a-4f19-9c09-88be03d621f1</item>
                             <item name="Name" type_name="gh_string" type_code="10">Storey Id</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">storey_id</item>
+                            <item name="NickName" type_name="gh_string" type_code="10">StId</item>
                             <item name="Optional" type_name="gh_bool" type_code="1">false</item>
                             <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
                             <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
@@ -3418,11 +3140,11 @@ in bubble diagrams of spatial topology
                                 <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                                   <X>2529</X>
                                   <Y>311</Y>
-                                  <W>62</W>
+                                  <W>29</W>
                                   <H>61</H>
                                 </item>
                                 <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2560</X>
+                                  <X>2543.5</X>
                                   <Y>341.5</Y>
                                 </item>
                               </items>
@@ -3442,7 +3164,7 @@ in bubble diagrams of spatial topology
                         <item name="MarshGuids" type_name="gh_bool" type_code="1">true</item>
                         <item name="MarshInputs" type_name="gh_bool" type_code="1">true</item>
                         <item name="MarshOutputs" type_name="gh_bool" type_code="1">true</item>
-                        <item name="Text" type_name="gh_string" type_code="10">aW1wb3J0IGlmY29wZW5zaGVsbC5hcGkucm9vdA0KDQojIFNldCBkZWZhdWx0IHZhbHVlcw0KaWYgbmFtZSA9PSBOb25lOg0KICAgIG5hbWUgPSBbIkhvcHBlciBTdG9yZXkiXQ0KDQojIEludGlhbGl6ZSBtb2RlbA0KbW9kZWwgPSBpZmNvcGVuc2hlbGwuZmlsZS5mcm9tX3N0cmluZyhtb2RlbF9pbi50b19zdHJpbmcoKSkNCg0KIyBJbml0aWFsaXplIGVtcHR5IGFycmF5cw0Kc3RvcmV5X2lkID0gW10NCg0KIyBDcmVhdGUgYnVpbGRpbmdzIChvbmUgcGVyIG5hbWUpDQpmb3IgaSBpbiByYW5nZShsZW4obmFtZSkpOg0KICAgIHN0b3JleSA9IGlmY29wZW5zaGVsbC5hcGkucm9vdC5jcmVhdGVfZW50aXR5KG1vZGVsLCBpZmNfY2xhc3M9IklmY0J1aWxkaW5nU3RvcmV5IiwgbmFtZT1uYW1lW2ldKQ0KICAgIHJlbGF0aW5nX29iamVjdCA9IG1vZGVsLmJ5X2lkKHJlbGF0aW5nX29iamVjdF9pZCkNCiAgICBpZmNvcGVuc2hlbGwuYXBpLmFnZ3JlZ2F0ZS5hc3NpZ25fb2JqZWN0KG1vZGVsLCByZWxhdGluZ19vYmplY3Q9cmVsYXRpbmdfb2JqZWN0LCBwcm9kdWN0cz1bc3RvcmV5XSkNCg0KICAgIHN0b3JleV9pZC5hcHBlbmQoaW50KHN0b3JleS5pZCgpKSkNCg0KIyBTYXZlIG1vZGVsDQptb2RlbF9vdXQgPSBtb2RlbA==</item>
+                        <item name="Text" type_name="gh_string" type_code="10">aW1wb3J0IGlmY29wZW5zaGVsbC5hcGkucm9vdA0KDQojIFNldCBkZWZhdWx0IHZhbHVlcw0KaWYgTiA9PSBOb25lOg0KICAgIE4gPSBbIkhvcHBlciBTdG9yZXkiXQ0KDQojIEludGlhbGl6ZSBtb2RlbA0KbW9kZWwgPSBpZmNvcGVuc2hlbGwuZmlsZS5mcm9tX3N0cmluZyhNaS50b19zdHJpbmcoKSkNCg0KIyBJbml0aWFsaXplIGVtcHR5IGFycmF5cw0KU3RJZCA9IFtdDQoNCiMgQ3JlYXRlIGJ1aWxkaW5ncyAob25lIHBlciBuYW1lKQ0KZm9yIGkgaW4gcmFuZ2UobGVuKE4pKToNCiAgICBzdG9yZXkgPSBpZmNvcGVuc2hlbGwuYXBpLnJvb3QuY3JlYXRlX2VudGl0eShtb2RlbCwgaWZjX2NsYXNzPSJJZmNCdWlsZGluZ1N0b3JleSIsIG5hbWU9TltpXSkNCiAgICByZWxhdGluZ19vYmplY3QgPSBtb2RlbC5ieV9pZChST0lkKQ0KICAgIGlmY29wZW5zaGVsbC5hcGkuYWdncmVnYXRlLmFzc2lnbl9vYmplY3QobW9kZWwsIHJlbGF0aW5nX29iamVjdD1yZWxhdGluZ19vYmplY3QsIHByb2R1Y3RzPVtzdG9yZXldKQ0KDQogICAgU3RJZC5hcHBlbmQoaW50KHN0b3JleS5pZCgpKSkNCg0KIyBTYXZlIG1vZGVsDQpNbyA9IG1vZGVs</item>
                         <item name="Title" type_name="gh_string" type_code="10">IfcBuildingStorey</item>
                       </items>
                       <chunks count="1">
@@ -3457,10 +3179,10 @@ in bubble diagrams of spatial topology
                     <chunk name="ScriptEditor">
                       <items count="1">
                         <item name="StartBounds" type_name="gh_drawing_rectangle" type_code="34">
-                          <X>198</X>
-                          <Y>217</Y>
+                          <X>3285</X>
+                          <Y>262</Y>
                           <W>984</W>
-                          <H>1083</H>
+                          <H>1133</H>
                         </item>
                       </items>
                     </chunk>
@@ -3468,285 +3190,7 @@ in bubble diagrams of spatial topology
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="19">
-              <items count="2">
-                <item name="GUID" type_name="gh_guid" type_code="9">719467e6-7cf5-4848-99b0-c5dd57e5442c</item>
-                <item name="Name" type_name="gh_string" type_code="10">Python 3 Script</item>
-              </items>
-              <chunks count="1">
-                <chunk name="Container">
-                  <items count="15">
-                    <item name="Description" type_name="gh_string" type_code="10"></item>
-                    <item name="GraftStandardOutputLines" type_name="gh_bool" type_code="1">true</item>
-                    <item name="IconDisplay" type_name="gh_int32" type_code="3">1</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">d62c8c32-8a6c-4168-afc4-8191ebfc0f65</item>
-                    <item name="MarshGuids" type_name="gh_bool" type_code="1">true</item>
-                    <item name="MarshInputs" type_name="gh_bool" type_code="1">true</item>
-                    <item name="MarshOutputs" type_name="gh_bool" type_code="1">true</item>
-                    <item name="Name" type_name="gh_string" type_code="10">Python 3 Script</item>
-                    <item name="NickName" type_name="gh_string" type_code="10">IfcTunnel</item>
-                    <item name="ScriptComponentVersion" type_name="gh_int32" type_code="3">3</item>
-                    <item name="Tooltip" type_name="gh_string" type_code="10"></item>
-                    <item name="UsingLibraryInputParam" type_name="gh_bool" type_code="1">false</item>
-                    <item name="UsingScriptInputParam" type_name="gh_bool" type_code="1">false</item>
-                    <item name="UsingScriptOutputParam" type_name="gh_bool" type_code="1">false</item>
-                    <item name="UsingStandardOutputParam" type_name="gh_bool" type_code="1">false</item>
-                  </items>
-                  <chunks count="4">
-                    <chunk name="Attributes">
-                      <items count="2">
-                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>1996</X>
-                          <Y>680</Y>
-                          <W>188</W>
-                          <H>74</H>
-                        </item>
-                        <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>2105</X>
-                          <Y>717</Y>
-                        </item>
-                      </items>
-                    </chunk>
-                    <chunk name="ParameterData">
-                      <items count="7">
-                        <item name="InputCount" type_name="gh_int32" type_code="3">3</item>
-                        <item name="InputId" index="0" type_name="gh_guid" type_code="9">08908df5-fa14-4982-9ab2-1aa0927566aa</item>
-                        <item name="InputId" index="1" type_name="gh_guid" type_code="9">08908df5-fa14-4982-9ab2-1aa0927566aa</item>
-                        <item name="InputId" index="2" type_name="gh_guid" type_code="9">08908df5-fa14-4982-9ab2-1aa0927566aa</item>
-                        <item name="OutputCount" type_name="gh_int32" type_code="3">2</item>
-                        <item name="OutputId" index="0" type_name="gh_guid" type_code="9">08908df5-fa14-4982-9ab2-1aa0927566aa</item>
-                        <item name="OutputId" index="1" type_name="gh_guid" type_code="9">08908df5-fa14-4982-9ab2-1aa0927566aa</item>
-                      </items>
-                      <chunks count="5">
-                        <chunk name="InputParam" index="0">
-                          <items count="12">
-                            <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
-                            <item name="Description" type_name="gh_string" type_code="10">The IfcOpenShell model.</item>
-                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">eb84d6a1-20f1-4e48-9b0d-0456626b2353</item>
-                            <item name="Name" type_name="gh_string" type_code="10">Model</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">model_in</item>
-                            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                            <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
-                            <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
-                            <item name="ShowTypeHints" type_name="gh_bool" type_code="1">true</item>
-                            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
-                            <item name="ToolTip" type_name="gh_string" type_code="10">The IfcOpenShell model.</item>
-                            <item name="TypeHintID" type_name="gh_guid" type_code="9">1c282eeb-dd16-439f-94e4-7d92b542fe8b</item>
-                          </items>
-                          <chunks count="2">
-                            <chunk name="Attributes">
-                              <items count="2">
-                                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>1998</X>
-                                  <Y>682</Y>
-                                  <W>92</W>
-                                  <H>23</H>
-                                </item>
-                                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2045.5</X>
-                                  <Y>693.6667</Y>
-                                </item>
-                              </items>
-                            </chunk>
-                            <chunk name="ConverterData">
-                              <items count="2">
-                                <item name="AssemblyName" type_name="gh_string" type_code="10">System.Private.CoreLib</item>
-                                <item name="TypeName" type_name="gh_string" type_code="10">System.Object</item>
-                              </items>
-                            </chunk>
-                          </chunks>
-                        </chunk>
-                        <chunk name="InputParam" index="1">
-                          <items count="12">
-                            <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
-                            <item name="Description" type_name="gh_string" type_code="10">The relating object id, usually an Ifc Site.</item>
-                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">ad569310-888b-4843-8e06-dacfe55918cd</item>
-                            <item name="Name" type_name="gh_string" type_code="10">Relating Object Id</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">relating_object_id</item>
-                            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                            <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
-                            <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
-                            <item name="ShowTypeHints" type_name="gh_bool" type_code="1">true</item>
-                            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
-                            <item name="ToolTip" type_name="gh_string" type_code="10">The relating object id, usually an Ifc Site.</item>
-                            <item name="TypeHintID" type_name="gh_guid" type_code="9">1c282eeb-dd16-439f-94e4-7d92b542fe8b</item>
-                          </items>
-                          <chunks count="2">
-                            <chunk name="Attributes">
-                              <items count="2">
-                                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>1998</X>
-                                  <Y>705</Y>
-                                  <W>92</W>
-                                  <H>23</H>
-                                </item>
-                                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2045.5</X>
-                                  <Y>717</Y>
-                                </item>
-                              </items>
-                            </chunk>
-                            <chunk name="ConverterData">
-                              <items count="2">
-                                <item name="AssemblyName" type_name="gh_string" type_code="10">System.Private.CoreLib</item>
-                                <item name="TypeName" type_name="gh_string" type_code="10">System.Object</item>
-                              </items>
-                            </chunk>
-                          </chunks>
-                        </chunk>
-                        <chunk name="InputParam" index="2">
-                          <items count="13">
-                            <item name="Access" type_name="gh_int32" type_code="3">1</item>
-                            <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">true</item>
-                            <item name="Description" type_name="gh_string" type_code="10">A list of tunnel names.
-
-(Default is "Hopper Tunnel")</item>
-                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">868029e0-9403-407f-9fc6-311d91bf2489</item>
-                            <item name="Name" type_name="gh_string" type_code="10">Name</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">name</item>
-                            <item name="Optional" type_name="gh_bool" type_code="1">true</item>
-                            <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">1</item>
-                            <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
-                            <item name="ShowTypeHints" type_name="gh_bool" type_code="1">true</item>
-                            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
-                            <item name="ToolTip" type_name="gh_string" type_code="10">A list of tunnel names.
-
-(Default is "Hopper Tunnel")</item>
-                            <item name="TypeHintID" type_name="gh_guid" type_code="9">1c282eeb-dd16-439f-94e4-7d92b542fe8b</item>
-                          </items>
-                          <chunks count="2">
-                            <chunk name="Attributes">
-                              <items count="2">
-                                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>1998</X>
-                                  <Y>728</Y>
-                                  <W>92</W>
-                                  <H>24</H>
-                                </item>
-                                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2045.5</X>
-                                  <Y>740.3334</Y>
-                                </item>
-                              </items>
-                            </chunk>
-                            <chunk name="ConverterData">
-                              <items count="2">
-                                <item name="AssemblyName" type_name="gh_string" type_code="10">System.Private.CoreLib</item>
-                                <item name="TypeName" type_name="gh_string" type_code="10">System.Object</item>
-                              </items>
-                            </chunk>
-                          </chunks>
-                        </chunk>
-                        <chunk name="OutputParam" index="0">
-                          <items count="12">
-                            <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">false</item>
-                            <item name="Description" type_name="gh_string" type_code="10">The IfcOpenShell model.</item>
-                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">d386488b-2f8b-428e-a2dd-11114689cb1e</item>
-                            <item name="Name" type_name="gh_string" type_code="10">Model</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">model_out</item>
-                            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                            <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
-                            <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
-                            <item name="ShowTypeHints" type_name="gh_bool" type_code="1">true</item>
-                            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
-                            <item name="ToolTip" type_name="gh_string" type_code="10">The IfcOpenShell model.</item>
-                            <item name="TypeHintID" type_name="gh_guid" type_code="9">1c282eeb-dd16-439f-94e4-7d92b542fe8b</item>
-                          </items>
-                          <chunks count="2">
-                            <chunk name="Attributes">
-                              <items count="2">
-                                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2120</X>
-                                  <Y>682</Y>
-                                  <W>62</W>
-                                  <H>35</H>
-                                </item>
-                                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2151</X>
-                                  <Y>699.5</Y>
-                                </item>
-                              </items>
-                            </chunk>
-                            <chunk name="ConverterData">
-                              <items count="2">
-                                <item name="AssemblyName" type_name="gh_string" type_code="10">System.Private.CoreLib</item>
-                                <item name="TypeName" type_name="gh_string" type_code="10">System.Object</item>
-                              </items>
-                            </chunk>
-                          </chunks>
-                        </chunk>
-                        <chunk name="OutputParam" index="1">
-                          <items count="12">
-                            <item name="AllowTreeAccess" type_name="gh_bool" type_code="1">false</item>
-                            <item name="Description" type_name="gh_string" type_code="10">The IFC road Id.</item>
-                            <item name="InstanceGuid" type_name="gh_guid" type_code="9">512dff40-e872-4483-ba78-f855169ff2b6</item>
-                            <item name="Name" type_name="gh_string" type_code="10">Road Id</item>
-                            <item name="NickName" type_name="gh_string" type_code="10">tunnel_id</item>
-                            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
-                            <item name="ScriptParamAccess" type_name="gh_int32" type_code="3">0</item>
-                            <item name="ScriptParameterVersion" type_name="gh_int32" type_code="3">2</item>
-                            <item name="ShowTypeHints" type_name="gh_bool" type_code="1">true</item>
-                            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
-                            <item name="ToolTip" type_name="gh_string" type_code="10">The IFC road Id.</item>
-                            <item name="TypeHintID" type_name="gh_guid" type_code="9">1c282eeb-dd16-439f-94e4-7d92b542fe8b</item>
-                          </items>
-                          <chunks count="2">
-                            <chunk name="Attributes">
-                              <items count="2">
-                                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                                  <X>2120</X>
-                                  <Y>717</Y>
-                                  <W>62</W>
-                                  <H>35</H>
-                                </item>
-                                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                                  <X>2151</X>
-                                  <Y>734.5</Y>
-                                </item>
-                              </items>
-                            </chunk>
-                            <chunk name="ConverterData">
-                              <items count="2">
-                                <item name="AssemblyName" type_name="gh_string" type_code="10">System.Private.CoreLib</item>
-                                <item name="TypeName" type_name="gh_string" type_code="10">System.Object</item>
-                              </items>
-                            </chunk>
-                          </chunks>
-                        </chunk>
-                      </chunks>
-                    </chunk>
-                    <chunk name="Script">
-                      <items count="5">
-                        <item name="MarshGuids" type_name="gh_bool" type_code="1">true</item>
-                        <item name="MarshInputs" type_name="gh_bool" type_code="1">true</item>
-                        <item name="MarshOutputs" type_name="gh_bool" type_code="1">true</item>
-                        <item name="Text" type_name="gh_string" type_code="10">aW1wb3J0IGlmY29wZW5zaGVsbC5hcGkucm9vdA0KaW1wb3J0IEdyYXNzaG9wcGVyLktlcm5lbCBhcyBnaA0KDQojIFNob3J0Y3V0IGFsaWFzZXMgZm9yIEdyYXNzaG9wcGVyIHJ1bnRpbWUgbWVzc2FnZSBsZXZlbHMNCmUgPSBnaC5HSF9SdW50aW1lTWVzc2FnZUxldmVsLkVycm9yDQp3ID0gZ2guR0hfUnVudGltZU1lc3NhZ2VMZXZlbC5XYXJuaW5nDQoNCiMgU2V0IGRlZmF1bHQgdmFsdWVzDQppZiBuYW1lID09IE5vbmU6DQogICAgbmFtZSA9IFsiSG9wcGVyIFR1bm5lbCJdDQoNCiMgSW5pdGlhbGl6ZSBtb2RlbA0KbW9kZWwgPSBpZmNvcGVuc2hlbGwuZmlsZS5mcm9tX3N0cmluZyhtb2RlbF9pbi50b19zdHJpbmcoKSkNCg0KIyBJbml0aWFsaXplIGVtcHR5IGFycmF5cw0KdHVubmVsX2lkID0gW10NCg0KIyBJZiBtb2RlbCBzY2hlbWEgaXMgSUZDMlgzIG9yIElGNCwgcmVwbGFjZSBJZmN0dW5uZWwgd2l0aCBJZmNCdWlsZGluZyBhbmQgd2FybiB1c2VyDQppZmNfY2xhc3M9IklmY1R1bm5lbCINCmlmIChtb2RlbC5zY2hlbWEgaW4gWyJJRkMyWDMiLCAiSUZDNCJdKToNCiAgICBnaGVudi5Db21wb25lbnQuQWRkUnVudGltZU1lc3NhZ2UodywgZiJcIklmY3R1bm5lbFwiIGlzIG5vdCBzdXBwb3J0ZWQgaW4gc2NoZW1hIHttb2RlbC5zY2hlbWF9LCBmYWxsaW5nIGJhY2sgdG8gXCJJZmNCdWlsZGluZ1wiIikNCiAgICBpZmNfY2xhc3M9IklmY0J1aWxkaW5nIg0KDQojIENyZWF0ZSB0dW5uZWxzIChvbmUgcGVyIG5hbWUpDQpmb3IgaSBpbiByYW5nZShsZW4obmFtZSkpOg0KICAgIHR1bm5lbCA9IGlmY29wZW5zaGVsbC5hcGkucm9vdC5jcmVhdGVfZW50aXR5KG1vZGVsLCBpZmNfY2xhc3M9aWZjX2NsYXNzLCBuYW1lPW5hbWVbaV0pDQogICAgcmVsYXRpbmdfb2JqZWN0ID0gbW9kZWwuYnlfaWQocmVsYXRpbmdfb2JqZWN0X2lkKQ0KICAgIGlmY29wZW5zaGVsbC5hcGkuYWdncmVnYXRlLmFzc2lnbl9vYmplY3QobW9kZWwsIHJlbGF0aW5nX29iamVjdD1yZWxhdGluZ19vYmplY3QsIHByb2R1Y3RzPVt0dW5uZWxdKQ0KDQogICAgdHVubmVsX2lkLmFwcGVuZChpbnQodHVubmVsLmlkKCkpKQ0KDQojIFNhdmUgbW9kZWwNCm1vZGVsX291dCA9IG1vZGVs</item>
-                        <item name="Title" type_name="gh_string" type_code="10">IfcTunnel</item>
-                      </items>
-                      <chunks count="1">
-                        <chunk name="LanguageSpec">
-                          <items count="2">
-                            <item name="Taxon" type_name="gh_string" type_code="10">*.*.python</item>
-                            <item name="Version" type_name="gh_string" type_code="10">3.*</item>
-                          </items>
-                        </chunk>
-                      </chunks>
-                    </chunk>
-                    <chunk name="ScriptEditor">
-                      <items count="1">
-                        <item name="StartBounds" type_name="gh_drawing_rectangle" type_code="34">
-                          <X>1214</X>
-                          <Y>211</Y>
-                          <W>984</W>
-                          <H>1089</H>
-                        </item>
-                      </items>
-                    </chunk>
-                  </chunks>
-                </chunk>
-              </chunks>
-            </chunk>
-            <chunk name="Object" index="20">
+            <chunk name="Object" index="18">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">7f5c6c55-f846-4a08-9c9a-cfdc285cc6fe</item>
                 <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
@@ -3799,7 +3243,7 @@ in bubble diagrams of spatial topology
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="21">
+            <chunk name="Object" index="19">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">719467e6-7cf5-4848-99b0-c5dd57e5442c</item>
                 <item name="Name" type_name="gh_string" type_code="10">Python 3 Script</item>
@@ -4034,7 +3478,7 @@ in bubble diagrams of spatial topology
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="22">
+            <chunk name="Object" index="20">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">7f5c6c55-f846-4a08-9c9a-cfdc285cc6fe</item>
                 <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
@@ -4087,7 +3531,7 @@ in bubble diagrams of spatial topology
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="23">
+            <chunk name="Object" index="21">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">c552a431-af5b-46a9-a8a4-0fcbc27ef596</item>
                 <item name="Name" type_name="gh_string" type_code="10">Group</item>
@@ -4116,7 +3560,7 @@ in bubble diagrams of spatial topology
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="24">
+            <chunk name="Object" index="22">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">719467e6-7cf5-4848-99b0-c5dd57e5442c</item>
                 <item name="Name" type_name="gh_string" type_code="10">Python 3 Script</item>
@@ -4474,7 +3918,7 @@ in bubble diagrams of spatial topology
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="25">
+            <chunk name="Object" index="23">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">719467e6-7cf5-4848-99b0-c5dd57e5442c</item>
                 <item name="Name" type_name="gh_string" type_code="10">Python 3 Script</item>
@@ -4892,7 +4336,7 @@ Can be:
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="26">
+            <chunk name="Object" index="24">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">719467e6-7cf5-4848-99b0-c5dd57e5442c</item>
                 <item name="Name" type_name="gh_string" type_code="10">Python 3 Script</item>
@@ -5087,7 +4531,7 @@ Can be:
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="27">
+            <chunk name="Object" index="25">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">719467e6-7cf5-4848-99b0-c5dd57e5442c</item>
                 <item name="Name" type_name="gh_string" type_code="10">Python 3 Script</item>
@@ -5322,7 +4766,7 @@ Can be:
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="28">
+            <chunk name="Object" index="26">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">719467e6-7cf5-4848-99b0-c5dd57e5442c</item>
                 <item name="Name" type_name="gh_string" type_code="10">Python 3 Script</item>
@@ -5518,7 +4962,7 @@ Can be:
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="29">
+            <chunk name="Object" index="27">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">7f5c6c55-f846-4a08-9c9a-cfdc285cc6fe</item>
                 <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
@@ -5571,7 +5015,7 @@ Can be:
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="30">
+            <chunk name="Object" index="28">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">719467e6-7cf5-4848-99b0-c5dd57e5442c</item>
                 <item name="Name" type_name="gh_string" type_code="10">Python 3 Script</item>
@@ -5964,7 +5408,7 @@ Can be:
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="31">
+            <chunk name="Object" index="29">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">719467e6-7cf5-4848-99b0-c5dd57e5442c</item>
                 <item name="Name" type_name="gh_string" type_code="10">Python 3 Script</item>
@@ -6411,7 +5855,7 @@ Note: a mesh is not required, an object can exist without a geometric reperesent
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="32">
+            <chunk name="Object" index="30">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">719467e6-7cf5-4848-99b0-c5dd57e5442c</item>
                 <item name="Name" type_name="gh_string" type_code="10">Python 3 Script</item>
@@ -6690,7 +6134,7 @@ Note: a mesh is not required, an object can exist without a geometric reperesent
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="33">
+            <chunk name="Object" index="31">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">7f5c6c55-f846-4a08-9c9a-cfdc285cc6fe</item>
                 <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
@@ -6750,7 +6194,7 @@ Note: a mesh is not required, an object can exist without a geometric reperesent
     <chunk name="Thumbnail">
       <items count="1">
         <item name="Thumbnail" type_name="gh_drawing_bitmap" type_code="37">
-          <bitmap length="6231">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</bitmap>
+          <bitmap length="5161">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</bitmap>
         </item>
       </items>
     </chunk>
