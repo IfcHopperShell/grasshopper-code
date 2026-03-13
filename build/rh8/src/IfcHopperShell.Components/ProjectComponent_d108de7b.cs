@@ -11,7 +11,7 @@ namespace RhinoCodePlatform.Rhino3D.Projects.Plugin.GH
   public sealed class ProjectComponent_d108de7b : ProjectComponent_Base
   {
     static readonly string s_scriptDataId = "d108de7b-849c-4e7b-817d-04c67de8b396";
-    static readonly string s_scriptIconData = "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAAK1JREFUSEvNlcEKg0AMBffWs6dS//8/bbZ0QoIJZNV2HZhDdl8SENQ2i4f4EteiPdt7yowMx95ThqatKPkyly/InvlnAGS1SD4le+bhQKAWyae4gQe82QKo1iL9uHsvuAgHQFaLdji694JD23RG5in/XQBHa3HyggucvACojS6HYM7IKa4RqI0uh2DOyClhY+BoThltjO6s5JTsc33Gp6hUf/LL1+jOuvvY/YjW3jC8nv4vqcRSAAAAAElFTkSuQmCC";
+    static readonly string s_scriptIconData = "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAAIxJREFUSEvNlcEOgDAIQ3vz7Mno//+nZkaSjYGCotikBxboy0icQJIGADOAxejSW2bM8oTXELNoaDWa+s0KB2g73wNIWm0BSOGhgCbwhn8G4Cu4qoXVdt9FNIAgMiDAlJcE4Cvw1vmAACcDhCvzweZc6E8GnNjb9x1Ae66feKoB2g+HezzMz7m7x+41bTC8nv5G7pQqAAAAAElFTkSuQmCC";
 
     public override Guid ComponentGuid { get; } = new Guid("d108de7b-849c-4e7b-817d-04c67de8b396");
 

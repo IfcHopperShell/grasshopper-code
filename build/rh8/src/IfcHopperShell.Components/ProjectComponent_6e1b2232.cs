@@ -11,7 +11,7 @@ namespace RhinoCodePlatform.Rhino3D.Projects.Plugin.GH
   public sealed class ProjectComponent_6e1b2232 : ProjectComponent_Base
   {
     static readonly string s_scriptDataId = "6e1b2232-0bf6-4d82-bd25-a4e4f7352852";
-    static readonly string s_scriptIconData = "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAAJNJREFUSEvNlksKgDAMRLsTTyB6/3tqIpnSYotpDI0Db9MmMxDoJ0VpJXbiUMK1C6HWiDnYCLXQdCpBvVruATy/1lhug56wL7VMV72ZuwVUhgZ+FqAV6qW35HEusOEVwHBIFhbLpi/AL2tugFXoF6/AAAeCA6xCv3gFBjgwP8DyRL5RPaF8MfFCq9ACew19AoxK6QLxyim/m5Z82AAAAABJRU5ErkJggg==";
+    static readonly string s_scriptIconData = "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAAINJREFUSEvNlkEKgDAMBPcmvkD0//+0RMihMS1JDKYLcylxBwqtBYqyAzgBXEZodpMls3jKmUOWzMIf3UZ43px0Ae2fti1PwSgegVaeKugKAywmsEYRMK9zkS1giS5IgPuKBNGsI0igWBDNOoIE/heMrusvdL9QuphoQQ5FoS7XIyCcBvHKKb/2//s5AAAAAElFTkSuQmCC";
 
     public override Guid ComponentGuid { get; } = new Guid("6e1b2232-0bf6-4d82-bd25-a4e4f7352852");
 

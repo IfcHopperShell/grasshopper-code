@@ -5,7 +5,7 @@
     <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
     <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
     <AssemblyName>IfcHopperShell.Components</AssemblyName>
-    <AssemblyVersion>0.1.1.30706</AssemblyVersion>
+    <AssemblyVersion>0.1.2.35556</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
