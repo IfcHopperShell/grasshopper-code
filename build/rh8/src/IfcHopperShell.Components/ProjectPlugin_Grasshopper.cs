@@ -36,7 +36,7 @@ namespace RhinoCodePlatform.Rhino3D.Projects.Plugin.GH
     public override Guid Id { get; } = new Guid("295b15b1-3500-40a2-b08e-8b333981d480");
 
     public override string AssemblyName { get; } = "IfcHopperShell.Components";
-    public override string AssemblyVersion { get; } = "0.1.9557.21510";
+    public override string AssemblyVersion { get; } = "0.1.1.30706";
     public override string AssemblyDescription { get; } = @"This Grasshopper plugin integrates the IfcOpenShell library directly into Rhino and Grasshopper, enabling users to work with Industry Foundation Classes (IFC) files within their parametric design workflows. The plugin provides a comprehensive toolkit for importing, inspecting, editing, and exporting BIM data using the open IFC standard.";
     public override string AuthorName { get; } = "Mattia Bressanelli & Luca Florio";
     public override string AuthorContact { get; } = "mattiabressanelli@gmail.com";

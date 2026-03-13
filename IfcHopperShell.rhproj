@@ -8,14 +8,14 @@
   "id": "295b15b1-3500-40a2-b08e-8b333981d480",
   "identity": {
     "name": "IfcHopperShell",
-    "version": "0.1",
+    "version": "0.1.1",
     "publisher": {
       "email": "mattiabressanelli@gmail.com",
       "name": "Mattia Bressanelli \u0026 Luca Florio",
       "url": "https://github.com/IfcHopperShell"
     },
     "description": "This Grasshopper plugin integrates the IfcOpenShell library directly into Rhino and Grasshopper, enabling users to work with Industry Foundation Classes (IFC) files within their parametric design workflows. The plugin provides a comprehensive toolkit for importing, inspecting, editing, and exporting BIM data using the open IFC standard.",
-    "license": "GPL 3.0",
+    "license": "LGPL 3.0",
     "url": "https://github.com/IfcHopperShell",
     "image": {
       "light": {
