@@ -12,8 +12,8 @@ if W == None:
     W = False
 
 # Set out path
-out_path = D + Fn + ".ifc"
+FP = D + Fn + ".ifc"
 
 # Write file
 if W:
-    Mi.W(FP)
+    Mi.write(FP)
