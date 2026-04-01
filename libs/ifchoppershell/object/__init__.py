@@ -1,0 +1,4 @@
+from .ifc_object_component import ifc_object_component
+from .ifc_pset_component import ifc_pset_component
+from .ifc_qto_component import ifc_qto_component
+from .ifc_style_component import ifc_style_component

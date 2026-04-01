@@ -1,0 +1,6 @@
+from .ifc_building_component import ifc_building_component
+from .ifc_building_storey_component import ifc_building_storey_component
+from .ifc_site_component import ifc_site_component
+from .ifc_project_component import ifc_project_component
+from .ifc_context_component import ifc_context_component
+from .ifc_georeference_component import ifc_georeference_component
