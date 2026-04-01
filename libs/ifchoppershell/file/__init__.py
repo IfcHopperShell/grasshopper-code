@@ -1,0 +1,4 @@
+from .ifc_model_component import ifc_model_component
+from .ifc_get_mesh_component import ifc_get_mesh_component
+from .ifc_read_component import ifc_read_component
+from .ifc_write_component import ifc_write_component

@@ -7,8 +7,8 @@
   },
   "id": "295b15b1-3500-40a2-b08e-8b333981d480",
   "identity": {
-    "name": "IfcHopperShell",
-    "version": "0.1.2",
+    "name": "IfcHopperShellAlpha",
+    "version": "0.2",
     "publisher": {
       "email": "mattiabressanelli@gmail.com",
       "name": "Mattia Bressanelli \u0026 Luca Florio",
@@ -827,6 +827,18 @@
           }
         }
       ]
+    }
+  ],
+  "libraries": [
+    {
+      "type": "uri",
+      "library": {
+        "base": "libs/ifchoppershell/",
+        "language": {
+          "id": "*.*.python",
+          "version": "3.*.*"
+        }
+      }
     }
   ]
 }
