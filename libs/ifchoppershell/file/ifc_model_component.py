@@ -1,4 +1,4 @@
-import ifcopenshell
+import ifcopenshell.api.project
 from datetime import datetime
 
 def ifc_model_component(

@@ -3,6 +3,7 @@ import ifcopenshell
 import System.Drawing as sd
 import Rhino
 import math
+import ghpythonlib.treehelpers as th
 
 def ifc_get_mesh_component(
 		model: ifcopenshell.file,
@@ -111,26 +112,26 @@ def ifc_get_mesh_component(
 			step_ids.append(shape.id)
 
 			# TODO: put these in a sparate component to ask for psets and qtos
-			# element = model.by_id(shape.id)
+			element = model.by_id(shape.id)
 
-			# # Get Psets
-			# element_pset = []
-			# for pset in list(ifcopenshell.util.element.get_psets(element, psets_only=True)):
-			# 	element_pset.append(ifcopenshell.util.element.get_psets(element)[pset]["id"])
+			# Get Psets
+			element_pset = []
+			for pset in list(ifcopenshell.util.element.get_psets(element, psets_only=True)):
+				element_pset.append(ifcopenshell.util.element.get_psets(element)[pset]["id"])
 
-			# # Get Qtos
-			# element_qto = []
-			# for qto in list(ifcopenshell.util.element.get_psets(element, qtos_only=True)):
-			# 	element_qto.append(ifcopenshell.util.element.get_psets(element)[qto]["id"])
+			# Get Qtos
+			element_qto = []
+			for qto in list(ifcopenshell.util.element.get_psets(element, qtos_only=True)):
+				element_qto.append(ifcopenshell.util.element.get_psets(element)[qto]["id"])
 		
-			# pset_ids_list.append(element_pset)
-			# qto_ids_list.append(element_qto)
+			pset_ids_list.append(element_pset)
+			qto_ids_list.append(element_qto)
 
 			# Move to next shape in iterator
 			if not iterator.next():
 				break
 
-	# pset_ids = th.list_to_tree(pset_ids_list)
-	# qto_ids = th.list_to_tree(qto_ids_list)
+	pset_ids = th.list_to_tree(pset_ids_list)
+	qto_ids = th.list_to_tree(qto_ids_list)
 
-	return meshes, colors, step_ids
+	return meshes, colors, step_ids, pset_ids, qto_ids
