@@ -4,7 +4,7 @@ def ifc_site_component(
 		model: ifcopenshell.file,
 		relating_object_id: int,
 		names: list[str] = ["Hopper Site"]
-		) -> tuple[ifcopenshell.file, list[int]]:
+	) -> tuple[ifcopenshell.file, list[int]]:
 	"""
 	Creates IfcSite entities and relates them to a specified IfcRelAggregates entity.
 

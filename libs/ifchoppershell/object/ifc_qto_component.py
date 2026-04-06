@@ -1,6 +1,8 @@
-import ifcopenshell.api.root
+import ifcopenshell
 import ghpythonlib.treehelpers as th
 import Grasshopper.Kernel as gh
+
+import Rhino.Geometry as rg
 
 # Shortcut aliases for Grasshopper runtime message levels
 e = gh.GH_RuntimeMessageLevel.Error
@@ -9,10 +11,11 @@ w = gh.GH_RuntimeMessageLevel.Warning
 def ifc_qto_component(
 		model: ifcopenshell.file,
 		object_ids: list[int],
-		name: str=None,
-		quantity: list[str]=None,
-		keys: list[str]=None,
-		values: gh.DataTree[object]=None	
+		name: str,
+		quantity: list[str],
+		keys: list[str],
+		values: list[list[any]],
+		component: gh.GH_Component	
 	) -> tuple[ifcopenshell.file, list[int]]:
 	"""
 	Creates a quantity takeoff (Qto) for a list of Ifc objects, and associates it with the objects. Optionally, properties can be added to the Qto.
@@ -62,11 +65,11 @@ def ifc_qto_component(
 			values_list = [values_list] * len(object_ids)
 
 		elif values.BranchCount != len(object_ids):
-			ghenv.Component.AddRuntimeMessage(w, "Values tree branch count must be one, or match the length of the Ifc Object Id array.")
+			component.AddRuntimeMessage(w, "Values tree branch count must be one, or match the length of the Ifc Object Id array.")
 
 		for value in values_list:
 			if len(value) != len(keys[0]):
-				ghenv.Component.AddRuntimeMessage(w, "The number of values has to match the number of keys, for each branch.")
+				component.AddRuntimeMessage(w, "The number of values has to match the number of keys, for each branch.")
 
 	# Create Qto, associate properties and objects
 	for object_index in range(len(object_ids)):

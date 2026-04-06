@@ -8,7 +8,8 @@ w = gh.GH_RuntimeMessageLevel.Warning
 
 def ifc_get_info_by_guid_component(
 		model: ifcopenshell.file,
-		guids: list[str]
+		guids: list[str],
+		component: gh.GH_Component
 	) -> tuple[list[int], list[int]]:
 	"""
 	Returns a tuple containing lists of keys and values for IFC objects identified by their GUIDs.
@@ -33,7 +34,7 @@ def ifc_get_info_by_guid_component(
 			keys_list.append(list(object_info.keys()))
 			values_list.append(list(object_info.values()))
 		except:
-			ghenv.Component.AddRuntimeMessage(w, f"No object was found with Id {s_guid}")
+			component.AddRuntimeMessage(w, f"No object was found with Id {s_guid}")
 
 	keyes = th.list_to_tree(keys_list)
 	values = th.list_to_tree(values_list)
