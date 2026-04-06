@@ -1,4 +1,4 @@
-import ifcopenshell.api.root
+import ifcopenshell
 import Grasshopper.Kernel as gh
 import Rhino.Geometry as rg
 from Grasshopper import DataTree
@@ -12,13 +12,14 @@ w = gh.GH_RuntimeMessageLevel.Warning
 
 def ifc_object_component(
 		model: ifcopenshell.file,
-		name: DataTree[str],
-		relating_object_id: DataTree[int],
-		context_id: DataTree[int],
-		ifc_class: DataTree[str],
-		mesh: DataTree[rg.Mesh],
-		style_id: DataTree[int]
-	) -> tuple[ifcopenshell.file, DataTree[int]]:
+		name: list[list[str]],
+		relating_object_id: list[list[int]],
+		context_id: list[list[int]],
+		ifc_class: list[list[str]],
+		mesh: list[list[rg.Mesh]],
+		style_id: list[list[int]],
+		component: gh.GH_Component
+	) -> tuple[ifcopenshell.file, list[list[int]]]:
 	
 	# Set default values
 	# Relating Object Id
@@ -50,7 +51,7 @@ def ifc_object_component(
 				relating_object_id.AddRange(new_data, path)
 
 			# And warn the user
-			ghenv.Component.AddRuntimeMessage(w, "Relating Object Id can either contain one element or have the same shape of the Name tree.")
+			component.AddRuntimeMessage(w, "Relating Object Id can either contain one element or have the same shape of the Name tree.")
 
 	# Context Id
 	# If it does not have the same shape of name
@@ -81,7 +82,7 @@ def ifc_object_component(
 				context_id.AddRange(new_data, path)
 
 			# And warn the user
-			ghenv.Component.AddRuntimeMessage(w, "Context Id can either contain one element or have the same shape of the Name tree.")
+			component.AddRuntimeMessage(w, "Context Id can either contain one element or have the same shape of the Name tree.")
 
 	# Class
 	# If it's empty or does not have the same shape of name
@@ -89,7 +90,7 @@ def ifc_object_component(
 		
 		# If it't not empty warn the user
 		if (ifc_class.BranchCount != 0):
-			ghenv.Component.AddRuntimeMessage(w, "Class can either be empty or the same shape of the Name tree.\nThe default \"IfcBuildingElementProxy\" will be used for all objects.")
+			component.AddRuntimeMessage(w, "Class can either be empty or the same shape of the Name tree.\nThe default \"IfcBuildingElementProxy\" will be used for all objects.")
 
 		# In any case ignore the malformed input and set it to "IfcBuildingElementProxy"
 		ifc_class = DataTree[object]()
@@ -105,55 +106,31 @@ def ifc_object_component(
 
 		# If it's not empty warn the user
 		if (mesh.BranchCount != 0):
-			ghenv.Component.AddRuntimeMessage(w, "Mesh can either be empty or the same shape of the Name tree.\nObjects will have no mesh.")
+			component.AddRuntimeMessage(w, "Mesh can either be empty or the same shape of the Name tree.\nObjects will have no mesh.")
 
 		# In any case ignore the malformed input and set it to None
-		M = DataTree[object]()
+		mesh = DataTree[object]()
 
 		for path in name.Paths:
 			original_branch_data = name.Branch(path)
 			new_data = [None] * len(original_branch_data)
-			M.AddRange(new_data, path)
+			mesh.AddRange(new_data, path)
 
 	# Style
-	# If it's empty
-	if style_id.BranchCount == 0:
+    # If it's empty or does not have the same shape of name
+	if style_id.BranchCount == 0 or not ghtrees.have_trees_same_shape(name, style_id):
+
+		# If it's not empty warn the user
+		if (style_id.BranchCount != 0):
+			component.AddRuntimeMessage(w, "Style Id can either be empty or the same shape of the Name tree.\nObjects will have no style.")
+
+		# In any case ignore the malformed input and set it to None
 		style_id = DataTree[object]()
 
 		for path in name.Paths:
 			original_branch_data = name.Branch(path)
 			new_data = [None] * len(original_branch_data)
 			style_id.AddRange(new_data, path)
-
-	# If it does not have the same shape of name
-	if not ghtrees.have_trees_same_shape(name, style_id):
-
-		# if it only has one element
-		if style_id.BranchCount == 1 and len(style_id.Branch(style_id.Paths[0])) == 1:
-
-			# Use the first element
-			first_element = style_id.Branch(style_id.Paths[0])[0]
-
-			style_id = DataTree[object]()
-
-			for path in name.Paths:
-				original_branch_data = name.Branch(path)
-				new_data = [first_element] * len(original_branch_data)
-				style_id.AddRange(new_data, path)
-		else:
-			
-			# Use the first element
-			first_element = style_id.Branch(style_id.Paths[0])[0]
-
-			style_id = DataTree[object]()
-
-			for path in name.Paths:
-				original_branch_data = name.Branch(path)
-				new_data = [first_element] * len(original_branch_data)
-				style_id.AddRange(new_data, path)
-
-			# And warn the user
-			ghenv.Component.AddRuntimeMessage(w, "Style Id can either contain one element or have the same shape of the Name tree.")
 
 	# Initialize model
 	model = ifcopenshell.file.from_string(model.to_string())
@@ -186,9 +163,9 @@ def ifc_object_component(
 			ifcopenshell.api.aggregate.assign_object(model, relating_object=relating_object, products=[ifc_object])
 
 			object_id_list[i].append(ifc_object.id())
-
+            
 			# If there is a mesh
-			if(mesh_branch[j]):
+			if(mesh_branch != None and mesh_branch[j] != None):
 
 				vertices = []
 				faces = []

@@ -1,4 +1,4 @@
-import ifcopenshell.api.project
+import ifcopenshell
 from datetime import datetime
 
 def ifc_model_component(
@@ -65,9 +65,9 @@ def ifc_model_component(
         # Add a person to the IFC file, using their given and family names to create an identification code
         person = ifcopenshell.api.owner.add_person(
             model,
-            identification=(author_name + " " + author_surname).lower().replace(" ", "_"),
-            family_name=author_name,
-            given_name=author_surname
+            identification=(author_surname + " " + author_name).lower().replace(" ", "_"),
+            family_name=author_surname,
+            given_name=author_name
         )
 
         # Add an organisation to the IFC file, using its identification and name
@@ -107,7 +107,7 @@ def ifc_model_component(
     fn.time_stamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     fn.author = [author_name + " " + author_surname]
     fn.organization = [authoring_organization]
-    fn.preprocessor_version = "ifcopenshell 0.8.4"
+    fn.preprocessor_version = "ifcopenshell " + ifcopenshell.version
     fn.originating_system = "IfcHopperShell 0.2.0"
     fn.authorization = authorization
 

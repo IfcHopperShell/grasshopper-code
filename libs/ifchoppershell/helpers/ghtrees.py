@@ -1,16 +1,14 @@
-import Grasshopper.Kernel as gh
-
 def have_trees_same_shape(
-        tree1: gh.GH_Structure,
-        tree2: gh.GH_Structure
+        tree1: list[list[any]],
+        tree2: list[list[any]]
     ) -> bool:
     """
     Compares two Grasshopper Data Trees to check if they have the same set of 
     branch paths AND the same number of items in each corresponding branch.
     
     Args:
-        tree1 (GH_Structure): The first Data Tree.
-        tree2 (GH_Structure): The second Data Tree.
+        tree1: The first Data Tree.
+        tree2: The second Data Tree.
         
     Returns:
         bool: True if both shape and counts are identical, False otherwise.
@@ -53,7 +51,7 @@ def have_trees_same_shape(
     return True
 
 def isinstance_tree(
-        data_tree: gh.GH_Structure,
+        data_tree: list[list[any]],
         expected_type: type
     ) -> bool:
     """

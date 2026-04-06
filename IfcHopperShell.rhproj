@@ -7,7 +7,7 @@
   },
   "id": "295b15b1-3500-40a2-b08e-8b333981d480",
   "identity": {
-    "name": "IfcHopperShellAlpha",
+    "name": "IfcHopperShell",
     "version": "0.2",
     "publisher": {
       "email": "mattiabressanelli@gmail.com",
@@ -54,7 +54,7 @@
     }
   },
   "settings": {
-    "buildPath": "build/",
+    "buildPath": "build",
     "buildTarget": {
       "host": {
         "name": "Rhino3D",

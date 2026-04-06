@@ -1,4 +1,4 @@
-import ifcopenshell.api.root
+import ifcopenshell
 import ghpythonlib.treehelpers as th
 import Grasshopper.Kernel as gh
 
@@ -9,10 +9,24 @@ w = gh.GH_RuntimeMessageLevel.Warning
 def ifc_pset_component(
 		model: ifcopenshell.file,
 		object_ids: list[int],
-		name: str=None,
-		keys: list[str]=None,
-		values: gh.DataTree[object]=None
-	):
+		name: str,
+		keys: list[str],
+		values: list[list[any]],
+		component: gh.GH_Component
+	) -> tuple[ifcopenshell.file, list[int]]:
+	"""
+	Creates a property set (Pset) for a list of Ifc objects, and associates it with the objects. Optionally, properties can be added to the Pset.
+
+	Args:
+		model (ifcopenshell.file): The Ifc model to which the Pset will
+		object_ids (list[int]): A list of Ifc object ids, to which the Pset will be associated.
+		name (str, optional): The name of the Pset. Defaults to "Hopper Pset".
+		keys (list[str], optional): A list of property names to be added to the Pset. If not provided, no properties will be added. Defaults to None.
+		values (gh.DataTree[object], optional): A tree of property values to be added to the Pset. The tree must have a number of branches that matches the number of object ids, and a number of leafs in each branch that matches the number of keys. If not provided, properties will be added with null values. Defaults to None.
+
+	Returns:
+		tuple[ifcopenshell.file, list[int]]: The updated Ifc model and a list of the created Pset ids.
+	"""
 
 	# Set default values
 	if name == None:
@@ -41,11 +55,11 @@ def ifc_pset_component(
 			values_list = [values_list] * len(object_ids)
 
 		elif values.BranchCount != len(object_ids):
-			ghenv.Component.AddRuntimeMessage(w, "Values tree branch count must be one, or match the length of the Ifc Object Id array.")
+			component.AddRuntimeMessage(w, "Values tree branch count must be one, or match the length of the Ifc Object Id array.")
 
 		for value in values_list:
 			if len(value) != len(keys[0]):
-				ghenv.Component.AddRuntimeMessage(w, "The number of values has to match the number of keys, for each branch.")
+				component.AddRuntimeMessage(w, "The number of values has to match the number of keys, for each branch.")
 
 	# Create Pset, associate properties and objects
 	for object_index in range(len(object_ids)):

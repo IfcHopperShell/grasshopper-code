@@ -9,11 +9,12 @@ w = gh.GH_RuntimeMessageLevel.Warning
 
 def ifc_georeference_component(
         model: ifcopenshell.file,
-		coordinate_reference_system: int = 4326,
-		eastings: float = 0.0,
-		northings: float = 0.0,
-		north_angle: float = 0.0,
-		origin_scale: float = 1.0
+		coordinate_reference_system: int,
+		eastings: float,
+		northings: float,
+		north_angle: float,
+		origin_scale: float,
+		component: gh.GH_Component
 	) -> tuple[ifcopenshell.file, int]:
 	"""
 	Adds georeferencing information to an IFC model.
@@ -60,10 +61,10 @@ def ifc_georeference_component(
 			if (context.ContextType != "Model"):
 				context = ifcopenshell.api.context.add_context(model, context_type="Model")
 		
-				ghenv.Component.AddRuntimeMessage(w, f"{len(context_list)} context have been found, but none of type \"Model\". A new one is added, be aware that some objects are probably associated to different contexts.")
+				component.AddRuntimeMessage(w, f"{len(context_list)} context have been found, but none of type \"Model\". A new one is added, be aware that some objects are probably associated to different contexts.")
 			else:
 				if (len(context_list) > 1):
-					ghenv.Component.AddRuntimeMessage(w, f"{len(context_list)} context have been found. Note that georeferencing will be assigned to the first one only.")
+					component.AddRuntimeMessage(w, f"{len(context_list)} context have been found. Note that georeferencing will be assigned to the first one only.")
 
 					context = context_list[0]
 
@@ -71,7 +72,7 @@ def ifc_georeference_component(
 	else:
 		context = ifcopenshell.api.context.add_context(model, context_type="Model")
 
-		ghenv.Component.AddRuntimeMessage(w, "No context was found. A new one is added, be aware that some objects are probably associated to different contexts.")
+		component.AddRuntimeMessage(w, "No context was found. A new one is added, be aware that some objects are probably associated to different contexts.")
 
 	context_id = context.id()
 
@@ -79,7 +80,7 @@ def ifc_georeference_component(
 	ifcopenshell.api.georeference.add_georeferencing(model)
 
 	ifcopenshell.api.georeference.edit_georeferencing(model,
-		projected_crs={"Name": "EPSG:" + str(CRS)},
+		projected_crs={"Name": "EPSG:" + str(coordinate_reference_system)},
 		coordinate_operation={
 			"Eastings": eastings, # False origin (horizontal)
 			"Northings": northings, # False origin (vertical)

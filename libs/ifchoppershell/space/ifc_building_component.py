@@ -1,4 +1,4 @@
-import ifcopenshell.api.root
+import ifcopenshell
 
 def ifc_building_component(
 		model: ifcopenshell.file,

@@ -9,14 +9,16 @@ w = gh.GH_RuntimeMessageLevel.Warning
 
 def ifc_project_component(
 		model: ifcopenshell.file,
-		name: str = "Hopper Project"
+		name: str,
+		component: gh.GH_Component
 		) -> tuple[ifcopenshell.file, int]:
 	"""
 	Creates an IfcProject entity in the given model and assigns units to the model based on the Rhino document's model units.
 	
 	Args:
 		model (ifcopenshell.file): The IFC model to which the IfcProject will be added.
-		name (str, optional): The name of the IfcProject. Defaults to "Hopper Project".
+		name (str): The name of the IfcProject.
+		component (gh.GH_Component): The Grasshopper component instance, used to add runtime messages.
 
 	Returns:
 		tuple[ifcopenshell.file, int]: A tuple containing the modified IFC model and the STEP ID of the created IfcProject.
@@ -110,7 +112,7 @@ def ifc_project_component(
 		- Kilometers
 		- Megameters
 		- Gigameters"""
-		ghenv.Component.AddRuntimeMessage(w, warning_message)
+		component.Component.AddRuntimeMessage(w, warning_message)
 
 	# Create project
 	project = ifcopenshell.api.root.create_entity(model, ifc_class="IfcProject", name=name)

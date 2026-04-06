@@ -1,6 +1,8 @@
 import ifcopenshell
 
-def ifc_read_component(file_path: str) -> tuple[ifcopenshell.file, str]:
+def ifc_read_component(
+        file_path: str
+    ) -> tuple[ifcopenshell.file, str]:
     """
     Reads an IFC file and returns the model object and its schema.
 

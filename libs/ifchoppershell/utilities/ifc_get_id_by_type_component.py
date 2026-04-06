@@ -8,7 +8,8 @@ w = gh.GH_RuntimeMessageLevel.Warning
 
 def ifc_get_id_by_type_component(
 		model: ifcopenshell.file,
-		ifc_types: list[str]
+		ifc_types: list[str],
+		component: gh.GH_Component
 	) -> list[int]:
 	"""
 	Returns a list of lists containing the IDs of IFC objects for each specified type.
@@ -29,12 +30,12 @@ def ifc_get_id_by_type_component(
 		try:
 			ifc_objects.append(model.by_type(i_type))
 		except:
-			ghenv.Component.AddRuntimeMessage(w, f"Type {i_type} not found in schema")
+			component.AddRuntimeMessage(w, f"Type {i_type} not found in schema")
 
 	for i in range(len(ifc_objects)):
 
 		if len(ifc_objects[i]) == 0:
-			ghenv.Component.AddRuntimeMessage(w, f"No object of type {ifc_types[i]} was found")
+			component.AddRuntimeMessage(w, f"No object of type {ifc_types[i]} was found")
 
 		id_list.append([])
 

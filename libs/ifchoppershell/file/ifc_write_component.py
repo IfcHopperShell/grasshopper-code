@@ -3,9 +3,9 @@ from pathlib import Path
 
 def ifc_write_component(
         model: ifcopenshell.file,
-        folder: str = str(Path.home() / "IfcHopperShell") + "\\",
-        file_name: str = "Hopper File",
-        write: bool = False
+        folder: str,
+        file_name: str,
+        write: bool
     ) -> str:
     """
     Writes an IFC model to a specified location with a given file name.
